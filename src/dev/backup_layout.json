@@ -1,0 +1,135 @@
+{
+    "Title_Pillar": {
+        "description": "The main title page",
+        "placeholders": {
+            "Title": "title for the pressentation, one line, max 50 characters",
+            "Subhead": "short subtitle for the pressentation, one line, max 20 characters"
+        }
+    },
+    "Divider_Image": {
+        "description": "narrow divider page for different sections, with main title and subtitle",
+        "placeholders": {
+            "Title": "main title for the section, very short one line, max 30 characters",
+            "Subhead": "subtitle for the section, very short one line, max 50 characters"
+        }
+    },
+    "Divider": {
+        "description": "wide divider page for different sections, with main title and subtitle",
+        "placeholders": {
+            "Title": "main title for the section, one line, max 50 characters",
+            "Subhead": "subtitle for the section, one line, max 100 characters"
+        }
+    },
+    "Impact Statement": {
+        "description": "impact statement page for different sections, with only title",
+        "placeholders": {
+            "Title": "one line, max 50 characters"
+        }
+    },
+    "Quote with text": {
+        "description": "text only quote from person",
+        "placeholders": {
+            "Title": "quote from person, one line, max 100 characters, surrounded by quotation marks",
+            "person name": "name of person quoted",
+            "Person description": "description of person"
+        }
+    },
+    "Quote with picture": {
+        "description": "quote from person with picture and logo",
+        "placeholders": {
+            "Quote": "quote from person, one line, max 100 characters, surrounded by quotation marks",
+            "Person name": "name of person quoted",
+            "Person description": "description of person"
+        }
+    },
+    "Single metric": {
+        "description": "Display and emphasize a numerical indicator",
+        "placeholders": {
+            "Title": "one line, max 50 characters",
+            "Metric": "the metric, a number or a percentage",
+            "Explain": "additional information about the metric, max 2 lines,max 200 characters"
+        }
+    },
+    "Thank You": {
+        "description": "Thank you page with no content",
+        "placeholders": {
+            "Thank you": "short thanks statement, one line, max 20 characters"
+        }
+    },
+    "Agenda Table": {
+        "description": "Agenda page for the presentation with rownumber and agenda items",
+        "placeholders": {
+            "Title": "one line, max 20 characters",
+            "Row Number": "agenda line numbers split by break line",
+            "Agenda Items": "agenda items, multiple lines, maximum text capacity is 7 lines,about 400 characters"
+        }
+    },
+    "Title with 1 block": {
+        "description": "main page with title and one block content",
+        "placeholders": {
+            "Title": "one line title, max 30 characters",
+            "Block": "text paragraphs, multiple lines with rich information, maximum text capacity is 15 lines,many characters"
+        }
+    },
+    "Title/Subtitle with 1 block": {
+        "description": "main page with title,subtitle and one block content",
+        "placeholders": {
+            "Title": "one line title, max 30 characters",
+            "Block": "text paragraphs, multiple lines with rich information, maximum text capacity is 15 lines,many characters",
+            "Subtitle": "subtitle, one line, max 50 characters"
+        }
+    },
+    "Title/Subtitle with 2 blocks": {
+        "description": "main page with title,subtitle and left-right content",
+        "placeholders": {
+            "Title": "one line title, max 30 characters",
+            "Left Content": "text paragraphs, multiple lines with rich information, maximum text capacity is 15 lines,many characters",
+            "Right Content": "text paragraphs, multiple lines with rich information, maximum text capacity is 15 lines,many characters",
+            "Subtitle": "subtitle, one line, max 50 characters"
+        }
+    },
+    "Title/Subtitle with 3 blocks": {
+        "description": "main page with title,subtitle and left-middle-right three block content",
+        "placeholders": {
+            "Title": "one line title, max 30 characters",
+            "Subtitle": "subtitle, one line, max 50 characters",
+            "Left Content": "text paragraphs, multiple lines with rich information, maximum text capacity is 15 lines,many characters",
+            "Middle Content": "text paragraphs, multiple lines with rich information, maximum text capacity is 15 lines,many characters",
+            "Right Content": "text paragraphs, multiple lines with rich information, maximum text capacity is 15 lines,many characters"
+        }
+    },
+    "Title/Subtitle with 4 blocks": {
+        "description": "main page with title,subtitle and left-middle-middle-right four block content",
+        "placeholders": {
+            "Left Content": "text paragraphs, multiple lines with rich information, maximum text capacity is 15 lines,many characters",
+            "Middle Left Content": "text paragraphs, multiple lines with rich information, maximum text capacity is 15 lines,many characters",
+            "Middle Right Content": "text paragraphs, multiple lines with rich information, maximum text capacity is 15 lines,many characters",
+            "Title": "one line title, max 30 characters",
+            "Right Content": "text paragraphs, multiple lines with rich information, maximum text capacity is 15 lines,many characters",
+            "Subtitle": "subtitle, one line, max 50 characters"
+        }
+    },
+    "Title, Content and 1/3 Photo": {
+        "description": "narrow page with picture, main pressentation content with title and one block content",
+        "placeholders": {
+            "Title": "one line title, max 30 characters",
+            "Content": "text paragraphs, multiple lines with rich information, maximum text capacity is 15 lines,many characters"
+        }
+    },
+    "Quote with Picture": {
+        "description": "quote from person with picture",
+        "placeholders": {
+            "Quote": "quote from person, one line, max 100 characters, surrounded by quotation marks",
+            "Person name": "Name of person quoted",
+            "Person description": "description of person"
+        }
+    },
+    "Closing Slide": {
+        "description": "Closing Slide with no content",
+        "placeholders": "none"
+    },
+    "STOP": {
+        "description": "",
+        "placeholders": "none"
+    }
+}

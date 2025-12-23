@@ -1,0 +1,5119 @@
+layouts:
+- index: 0
+  layout_name: Dark - Title_Pillar
+  mode: dark
+  shortname: Title_Pillar
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title
+    placeholder_id: 24
+    alias: Title
+    description: ''
+  - index: 1
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 25
+    alias: Subhead
+    description: ''
+  - index: 2
+    place_holder_index: 35
+    placeholder_name: Text Field
+    placeholder_id: 11
+    alias: Text Field
+    description: ''
+  - index: 3
+    place_holder_index: 34
+    placeholder_name: Text Field 2
+    placeholder_id: 10
+    alias: Text Field 2
+    description: ''
+  - index: 4
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 4
+    placeholder_id: 5
+    alias: Slide Number Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 36
+    placeholder_name: Footer Placeholder 3
+    placeholder_id: 4
+    alias: Footer Placeholder 3
+    description: ''
+  - index: 6
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+- index: 1
+  layout_name: Light - Title_Pillar
+  mode: light
+  shortname: Title_Pillar
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title
+    placeholder_id: 2
+    alias: Title
+    description: ''
+  - index: 1
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 7
+    alias: Subhead
+    description: ''
+  - index: 2
+    place_holder_index: 35
+    placeholder_name: Text Field
+    placeholder_id: 8
+    alias: Text Field
+    description: ''
+  - index: 3
+    place_holder_index: 34
+    placeholder_name: Text Field 2
+    placeholder_id: 9
+    alias: Text Field 2
+    description: ''
+  - index: 4
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 4
+    placeholder_id: 5
+    alias: Slide Number Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+  - index: 6
+    place_holder_index: 36
+    placeholder_name: Footer Placeholder 3
+    placeholder_id: 4
+    alias: Footer Placeholder 3
+    description: ''
+- index: 2
+  layout_name: Dark - Title_2
+  mode: dark
+  shortname: Title_2
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title
+    placeholder_id: 2
+    alias: Title
+    description: ''
+  - index: 1
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 7
+    alias: Subhead
+    description: ''
+  - index: 2
+    place_holder_index: 35
+    placeholder_name: Text Field
+    placeholder_id: 8
+    alias: Text Field
+    description: ''
+  - index: 3
+    place_holder_index: 34
+    placeholder_name: Text Field 2
+    placeholder_id: 9
+    alias: Text Field 2
+    description: ''
+  - index: 4
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 4
+    placeholder_id: 5
+    alias: Slide Number Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 36
+    placeholder_name: Footer Placeholder 3
+    placeholder_id: 4
+    alias: Footer Placeholder 3
+    description: ''
+  - index: 6
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+- index: 3
+  layout_name: Light - Title_2
+  mode: light
+  shortname: Title_2
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title
+    placeholder_id: 4
+    alias: Title
+    description: ''
+  - index: 1
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 7
+    alias: Subhead
+    description: ''
+  - index: 2
+    place_holder_index: 35
+    placeholder_name: Text Field
+    placeholder_id: 8
+    alias: Text Field
+    description: ''
+  - index: 3
+    place_holder_index: 34
+    placeholder_name: Text Field 2
+    placeholder_id: 9
+    alias: Text Field 2
+    description: ''
+  - index: 4
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 4
+    placeholder_id: 5
+    alias: Slide Number Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 36
+    placeholder_name: Footer Placeholder 3
+    placeholder_id: 3
+    alias: Footer Placeholder 3
+    description: ''
+  - index: 6
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 2
+    alias: Date Placeholder 2
+    description: ''
+- index: 4
+  layout_name: Title-full-image
+  mode: normal
+  shortname: Title-full-image
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title
+    placeholder_id: 4
+    alias: Title
+    description: ''
+  - index: 1
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 8
+    alias: Subhead
+    description: ''
+  - index: 2
+    place_holder_index: 35
+    placeholder_name: Text Field
+    placeholder_id: 9
+    alias: Text Field
+    description: ''
+  - index: 3
+    place_holder_index: 34
+    placeholder_name: Text Field 2
+    placeholder_id: 12
+    alias: Text Field 2
+    description: ''
+  - index: 4
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 4
+    placeholder_id: 5
+    alias: Slide Number Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 36
+    placeholder_name: Footer Placeholder 3
+    placeholder_id: 3
+    alias: Footer Placeholder 3
+    description: ''
+  - index: 6
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 2
+    alias: Date Placeholder 2
+    description: ''
+- index: 5
+  layout_name: Title/Cover_3
+  mode: normal
+  shortname: Title/Cover_3
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title
+    placeholder_id: 7
+    alias: Title
+    description: ''
+  - index: 1
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 8
+    alias: Subhead
+    description: ''
+  - index: 2
+    place_holder_index: 35
+    placeholder_name: Text Field
+    placeholder_id: 9
+    alias: Text Field
+    description: ''
+  - index: 3
+    place_holder_index: 34
+    placeholder_name: Text Field 2
+    placeholder_id: 12
+    alias: Text Field 2
+    description: ''
+  - index: 4
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 4
+    placeholder_id: 5
+    alias: Slide Number Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 36
+    placeholder_name: Footer Placeholder 3
+    placeholder_id: 4
+    alias: Footer Placeholder 3
+    description: ''
+  - index: 6
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+- index: 6
+  layout_name: Title/Cover_4
+  mode: normal
+  shortname: Title/Cover_4
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title
+    placeholder_id: 24
+    alias: Title
+    description: ''
+  - index: 1
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 25
+    alias: Subhead
+    description: ''
+  - index: 2
+    place_holder_index: 35
+    placeholder_name: Text Field
+    placeholder_id: 11
+    alias: Text Field
+    description: ''
+  - index: 3
+    place_holder_index: 34
+    placeholder_name: Text Field 2
+    placeholder_id: 10
+    alias: Text Field 2
+    description: ''
+  - index: 4
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 4
+    placeholder_id: 5
+    alias: Slide Number Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 36
+    placeholder_name: Footer Placeholder 3
+    placeholder_id: 4
+    alias: Footer Placeholder 3
+    description: ''
+  - index: 6
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+- index: 7
+  layout_name: Title/Cover_5
+  mode: normal
+  shortname: Title/Cover_5
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title
+    placeholder_id: 6
+    alias: Title
+    description: ''
+  - index: 1
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 7
+    alias: Subhead
+    description: ''
+  - index: 2
+    place_holder_index: 35
+    placeholder_name: Text Field
+    placeholder_id: 8
+    alias: Text Field
+    description: ''
+  - index: 3
+    place_holder_index: 34
+    placeholder_name: Text Field 2
+    placeholder_id: 9
+    alias: Text Field 2
+    description: ''
+  - index: 4
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 4
+    placeholder_id: 5
+    alias: Slide Number Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 36
+    placeholder_name: Footer Placeholder 3
+    placeholder_id: 4
+    alias: Footer Placeholder 3
+    description: ''
+  - index: 6
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+- index: 8
+  layout_name: Cover/Title_6
+  mode: normal
+  shortname: Cover/Title_6
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title
+    placeholder_id: 6
+    alias: Title
+    description: ''
+  - index: 1
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 7
+    alias: Subhead
+    description: ''
+  - index: 2
+    place_holder_index: 35
+    placeholder_name: Text Field
+    placeholder_id: 8
+    alias: Text Field
+    description: ''
+  - index: 3
+    place_holder_index: 34
+    placeholder_name: Text Field 2
+    placeholder_id: 9
+    alias: Text Field 2
+    description: ''
+  - index: 4
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 4
+    placeholder_id: 5
+    alias: Slide Number Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 36
+    placeholder_name: Footer Placeholder 3
+    placeholder_id: 4
+    alias: Footer Placeholder 3
+    description: ''
+  - index: 6
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+- index: 9
+  layout_name: Title/Cover_7
+  mode: normal
+  shortname: Title/Cover_7
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title
+    placeholder_id: 6
+    alias: Title
+    description: ''
+  - index: 1
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 7
+    alias: Subhead
+    description: ''
+  - index: 2
+    place_holder_index: 35
+    placeholder_name: Text Field
+    placeholder_id: 8
+    alias: Text Field
+    description: ''
+  - index: 3
+    place_holder_index: 34
+    placeholder_name: Text Field 2
+    placeholder_id: 9
+    alias: Text Field 2
+    description: ''
+  - index: 4
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 4
+    placeholder_id: 5
+    alias: Slide Number Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 36
+    placeholder_name: Footer Placeholder 3
+    placeholder_id: 4
+    alias: Footer Placeholder 3
+    description: ''
+  - index: 6
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+- index: 10
+  layout_name: Title/Cover_8
+  mode: normal
+  shortname: Title/Cover_8
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title
+    placeholder_id: 6
+    alias: Title
+    description: ''
+  - index: 1
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 7
+    alias: Subhead
+    description: ''
+  - index: 2
+    place_holder_index: 35
+    placeholder_name: Text Field
+    placeholder_id: 8
+    alias: Text Field
+    description: ''
+  - index: 3
+    place_holder_index: 34
+    placeholder_name: Text Field 2
+    placeholder_id: 9
+    alias: Text Field 2
+    description: ''
+  - index: 4
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 4
+    placeholder_id: 5
+    alias: Slide Number Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 36
+    placeholder_name: Footer Placeholder 3
+    placeholder_id: 4
+    alias: Footer Placeholder 3
+    description: ''
+  - index: 6
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+- index: 11
+  layout_name: Title/Cover_9
+  mode: normal
+  shortname: Title/Cover_9
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title
+    placeholder_id: 6
+    alias: Title
+    description: ''
+  - index: 1
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 7
+    alias: Subhead
+    description: ''
+  - index: 2
+    place_holder_index: 35
+    placeholder_name: Text Field
+    placeholder_id: 8
+    alias: Text Field
+    description: ''
+  - index: 3
+    place_holder_index: 34
+    placeholder_name: Text Field 2
+    placeholder_id: 9
+    alias: Text Field 2
+    description: ''
+  - index: 4
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 4
+    placeholder_id: 5
+    alias: Slide Number Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 36
+    placeholder_name: Footer Placeholder 3
+    placeholder_id: 4
+    alias: Footer Placeholder 3
+    description: ''
+  - index: 6
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+- index: 12
+  layout_name: Title/Cover_10
+  mode: normal
+  shortname: Title/Cover_10
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title
+    placeholder_id: 24
+    alias: Title
+    description: ''
+  - index: 1
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 25
+    alias: Subhead
+    description: ''
+  - index: 2
+    place_holder_index: 35
+    placeholder_name: Text Field
+    placeholder_id: 11
+    alias: Text Field
+    description: ''
+  - index: 3
+    place_holder_index: 34
+    placeholder_name: Text Field 2
+    placeholder_id: 10
+    alias: Text Field 2
+    description: ''
+  - index: 4
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 4
+    placeholder_id: 5
+    alias: Slide Number Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 36
+    placeholder_name: Footer Placeholder 3
+    placeholder_id: 4
+    alias: Footer Placeholder 3
+    description: ''
+  - index: 6
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+- index: 13
+  layout_name: Section-full-image
+  mode: normal
+  shortname: Section-full-image
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 5
+    placeholder_id: 7
+    alias: Title 5
+    description: ''
+  - index: 1
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 11
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 2
+    place_holder_index: 11
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 13
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 3
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 15
+    alias: Date Placeholder 2
+    description: ''
+  - index: 4
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 4
+    alias: Subhead
+    description: ''
+- index: 14
+  layout_name: Light - Divider_Image
+  mode: light
+  shortname: Divider_Image
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 5
+    placeholder_id: 7
+    alias: Title 5
+    description: ''
+  - index: 1
+    place_holder_index: 34
+    placeholder_name: Picture Placeholder 15
+    placeholder_id: 16
+    alias: Picture Placeholder 15
+    description: ''
+  - index: 2
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 8
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 3
+    place_holder_index: 11
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 5
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 4
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+  - index: 5
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 2
+    alias: Subhead
+    description: ''
+- index: 15
+  layout_name: Dark- Divider_Image
+  mode: dark
+  shortname: Divider_Image
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 34
+    placeholder_name: Picture Placeholder 15
+    placeholder_id: 16
+    alias: Picture Placeholder 15
+    description: ''
+  - index: 1
+    place_holder_index: 0
+    placeholder_name: Title 5
+    placeholder_id: 7
+    alias: Title 5
+    description: ''
+  - index: 2
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 8
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 3
+    place_holder_index: 11
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 5
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 4
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+  - index: 5
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 4
+    alias: Subhead
+    description: ''
+- index: 16
+  layout_name: Light - Divider
+  mode: light
+  shortname: Divider
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 5
+    placeholder_id: 4
+    alias: Title 5
+    description: ''
+  - index: 1
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 10
+    alias: Subhead
+    description: ''
+  - index: 2
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 8
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 3
+    place_holder_index: 11
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 5
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 4
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+- index: 17
+  layout_name: Dark - Divider
+  mode: dark
+  shortname: Divider
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 5
+    placeholder_id: 4
+    alias: Title 5
+    description: ''
+  - index: 1
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 10
+    alias: Subhead
+    description: ''
+  - index: 2
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 8
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 3
+    place_holder_index: 11
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 5
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 4
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+- index: 18
+  layout_name: Divider_3
+  mode: normal
+  shortname: Divider_3
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 5
+    placeholder_id: 9
+    alias: Title 5
+    description: ''
+  - index: 1
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 10
+    alias: Subhead
+    description: ''
+  - index: 2
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 8
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 3
+    place_holder_index: 11
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 5
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 4
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+- index: 19
+  layout_name: Divider_4
+  mode: normal
+  shortname: Divider_4
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 5
+    placeholder_id: 9
+    alias: Title 5
+    description: ''
+  - index: 1
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 10
+    alias: Subhead
+    description: ''
+  - index: 2
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 8
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 3
+    place_holder_index: 11
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 5
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 4
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+- index: 20
+  layout_name: Divider_5
+  mode: normal
+  shortname: Divider_5
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 5
+    placeholder_id: 9
+    alias: Title 5
+    description: ''
+  - index: 1
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 10
+    alias: Subhead
+    description: ''
+  - index: 2
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 8
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 3
+    place_holder_index: 11
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 5
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 4
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+- index: 21
+  layout_name: Divider_6
+  mode: normal
+  shortname: Divider_6
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 5
+    placeholder_id: 9
+    alias: Title 5
+    description: ''
+  - index: 1
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 10
+    alias: Subhead
+    description: ''
+  - index: 2
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 8
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 3
+    place_holder_index: 11
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 5
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 4
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+- index: 22
+  layout_name: Divider_7
+  mode: normal
+  shortname: Divider_7
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 5
+    placeholder_id: 9
+    alias: Title 5
+    description: ''
+  - index: 1
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 10
+    alias: Subhead
+    description: ''
+  - index: 2
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 8
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 3
+    place_holder_index: 11
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 5
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 4
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+- index: 23
+  layout_name: Divider_8
+  mode: normal
+  shortname: Divider_8
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 5
+    placeholder_id: 9
+    alias: Title 5
+    description: ''
+  - index: 1
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 10
+    alias: Subhead
+    description: ''
+  - index: 2
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 8
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 3
+    place_holder_index: 11
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 5
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 4
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+- index: 24
+  layout_name: Divider_9
+  mode: normal
+  shortname: Divider_9
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 5
+    placeholder_id: 9
+    alias: Title 5
+    description: ''
+  - index: 1
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 10
+    alias: Subhead
+    description: ''
+  - index: 2
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 8
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 3
+    place_holder_index: 11
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 5
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 4
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+- index: 25
+  layout_name: Divider_10
+  mode: normal
+  shortname: Divider_10
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 5
+    placeholder_id: 9
+    alias: Title 5
+    description: ''
+  - index: 1
+    place_holder_index: 33
+    placeholder_name: Subhead
+    placeholder_id: 10
+    alias: Subhead
+    description: ''
+  - index: 2
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 8
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 3
+    place_holder_index: 11
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 5
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 4
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+- index: 26
+  layout_name: Dark - Impact Statement
+  mode: dark
+  shortname: Impact Statement
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 12
+    placeholder_id: 13
+    alias: Title 12
+    description: ''
+  - index: 1
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 2
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 2
+    place_holder_index: 39
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 4
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 3
+    place_holder_index: 38
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 6
+    alias: Date Placeholder 3
+    description: ''
+- index: 27
+  layout_name: Light - Impact Statement
+  mode: light
+  shortname: Impact Statement
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 12
+    placeholder_id: 13
+    alias: Title 12
+    description: ''
+  - index: 1
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 2
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 2
+    place_holder_index: 39
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 4
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 3
+    place_holder_index: 38
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 6
+    alias: Date Placeholder 3
+    description: ''
+- index: 28
+  layout_name: Dark - Quote with Data Texture Background
+  mode: dark
+  shortname: Quote with Data Texture Background
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title
+    placeholder_id: 14
+    alias: Title
+    description: ''
+  - index: 1
+    place_holder_index: 37
+    placeholder_name: Text Field
+    placeholder_id: 13
+    alias: Text Field
+    description: ''
+  - index: 2
+    place_holder_index: 36
+    placeholder_name: Text Field 2
+    placeholder_id: 12
+    alias: Text Field 2
+    description: ''
+  - index: 3
+    place_holder_index: 45
+    placeholder_name: Content Placeholder 2
+    placeholder_id: 3
+    alias: Content Placeholder 2
+    description: ''
+  - index: 4
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 2
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 5
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 4
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 6
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 7
+    alias: Date Placeholder 4
+    description: ''
+- index: 29
+  layout_name: Light - Quote with Data Texture Background
+  mode: light
+  shortname: Quote with Data Texture Background
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title
+    placeholder_id: 14
+    alias: Title
+    description: ''
+  - index: 1
+    place_holder_index: 37
+    placeholder_name: Text Field
+    placeholder_id: 13
+    alias: Text Field
+    description: ''
+  - index: 2
+    place_holder_index: 36
+    placeholder_name: Text Field 2
+    placeholder_id: 12
+    alias: Text Field 2
+    description: ''
+  - index: 3
+    place_holder_index: 44
+    placeholder_name: Slide Number Placeholder 8
+    placeholder_id: 9
+    alias: Slide Number Placeholder 8
+    description: ''
+  - index: 4
+    place_holder_index: 43
+    placeholder_name: Footer Placeholder 7
+    placeholder_id: 8
+    alias: Footer Placeholder 7
+    description: ''
+  - index: 5
+    place_holder_index: 42
+    placeholder_name: Date Placeholder 5
+    placeholder_id: 6
+    alias: Date Placeholder 5
+    description: ''
+  - index: 6
+    place_holder_index: 45
+    placeholder_name: Content Placeholder 2
+    placeholder_id: 2
+    alias: Content Placeholder 2
+    description: ''
+- index: 30
+  layout_name: Dark - Quote, Picture, and logo
+  mode: dark
+  shortname: Quote, Picture, and logo
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Quote
+    placeholder_id: 3
+    alias: Quote
+    description: ''
+  - index: 1
+    place_holder_index: 37
+    placeholder_name: Text Field
+    placeholder_id: 13
+    alias: Text Field
+    description: ''
+  - index: 2
+    place_holder_index: 36
+    placeholder_name: Text Field 2
+    placeholder_id: 11
+    alias: Text Field 2
+    description: ''
+  - index: 3
+    place_holder_index: 47
+    placeholder_name: Picture Placeholder 5
+    placeholder_id: 9
+    alias: Picture Placeholder 5
+    description: ''
+  - index: 4
+    place_holder_index: 45
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 8
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 5
+    place_holder_index: 44
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 5
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 6
+    place_holder_index: 43
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 4
+    alias: Date Placeholder 3
+    description: ''
+  - index: 7
+    place_holder_index: 48
+    placeholder_name: Content Placeholder 2
+    placeholder_id: 2
+    alias: Content Placeholder 2
+    description: ''
+- index: 31
+  layout_name: Light - Quote, Picture, and logo
+  mode: light
+  shortname: Quote, Picture, and logo
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Quote
+    placeholder_id: 12
+    alias: Quote
+    description: ''
+  - index: 1
+    place_holder_index: 37
+    placeholder_name: Text Field
+    placeholder_id: 13
+    alias: Text Field
+    description: ''
+  - index: 2
+    place_holder_index: 36
+    placeholder_name: Text Field 2
+    placeholder_id: 11
+    alias: Text Field 2
+    description: ''
+  - index: 3
+    place_holder_index: 48
+    placeholder_name: Content Placeholder 2
+    placeholder_id: 2
+    alias: Content Placeholder 2
+    description: ''
+  - index: 4
+    place_holder_index: 47
+    placeholder_name: Picture Placeholder 5
+    placeholder_id: 5
+    alias: Picture Placeholder 5
+    description: ''
+  - index: 5
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 8
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 6
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 9
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 7
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 10
+    alias: Date Placeholder 4
+    description: ''
+- index: 32
+  layout_name: Dark - Single metric
+  mode: dark
+  shortname: Single metric
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 2
+    placeholder_id: 3
+    alias: Title 2
+    description: ''
+  - index: 1
+    place_holder_index: 15
+    placeholder_name: Text Placeholder 4
+    placeholder_id: 9
+    alias: Text Placeholder 4
+    description: ''
+  - index: 2
+    place_holder_index: 14
+    placeholder_name: Content
+    placeholder_id: 4
+    alias: Content
+    description: ''
+  - index: 3
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 6
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 4
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 10
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 5
+    place_holder_index: 18
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 11
+    alias: Date Placeholder 4
+    description: ''
+- index: 33
+  layout_name: Light - Single metric
+  mode: light
+  shortname: Single metric
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 8
+    placeholder_id: 9
+    alias: Title 8
+    description: ''
+  - index: 1
+    place_holder_index: 15
+    placeholder_name: Text Placeholder 4
+    placeholder_id: 5
+    alias: Text Placeholder 4
+    description: ''
+  - index: 2
+    place_holder_index: 14
+    placeholder_name: Content
+    placeholder_id: 4
+    alias: Content
+    description: ''
+  - index: 3
+    place_holder_index: 18
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 8
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 4
+    place_holder_index: 17
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 7
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 5
+    place_holder_index: 16
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 3
+    alias: Date Placeholder 2
+    description: ''
+- index: 34
+  layout_name: Dark - Thank You
+  mode: dark
+  shortname: Thank You
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Thank you
+    placeholder_id: 3
+    alias: Thank you
+    description: ''
+  - index: 1
+    place_holder_index: 37
+    placeholder_name: Text Field
+    placeholder_id: 11
+    alias: Text Field
+    description: ''
+  - index: 2
+    place_holder_index: 36
+    placeholder_name: Text Field 2
+    placeholder_id: 10
+    alias: Text Field 2
+    description: ''
+  - index: 3
+    place_holder_index: 38
+    placeholder_name: Date Placeholder 12
+    placeholder_id: 13
+    alias: Date Placeholder 12
+    description: ''
+  - index: 4
+    place_holder_index: 39
+    placeholder_name: Footer Placeholder 13
+    placeholder_id: 14
+    alias: Footer Placeholder 13
+    description: ''
+  - index: 5
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 14
+    placeholder_id: 15
+    alias: Slide Number Placeholder 14
+    description: ''
+- index: 35
+  layout_name: Light - Thank You
+  mode: light
+  shortname: Thank You
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Thank You
+    placeholder_id: 3
+    alias: Thank You
+    description: ''
+  - index: 1
+    place_holder_index: 37
+    placeholder_name: Text Field
+    placeholder_id: 11
+    alias: Text Field
+    description: ''
+  - index: 2
+    place_holder_index: 36
+    placeholder_name: Text Field 2
+    placeholder_id: 10
+    alias: Text Field 2
+    description: ''
+  - index: 3
+    place_holder_index: 38
+    placeholder_name: Date Placeholder 32
+    placeholder_id: 33
+    alias: Date Placeholder 32
+    description: ''
+  - index: 4
+    place_holder_index: 39
+    placeholder_name: Footer Placeholder 33
+    placeholder_id: 34
+    alias: Footer Placeholder 33
+    description: ''
+  - index: 5
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 34
+    placeholder_id: 35
+    alias: Slide Number Placeholder 34
+    description: ''
+- index: 36
+  layout_name: Dark - Safe harbor_Pillar
+  mode: dark
+  shortname: Safe harbor_Pillar
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 2
+    placeholder_id: 3
+    alias: Title 2
+    description: ''
+  - index: 1
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 5
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 2
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 6
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 3
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 7
+    alias: Date Placeholder 4
+    description: ''
+- index: 37
+  layout_name: Light - Safe harbor_Pillar
+  mode: light
+  shortname: Safe harbor_Pillar
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 2
+    placeholder_id: 3
+    alias: Title 2
+    description: ''
+  - index: 1
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 4
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 2
+    place_holder_index: 39
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 6
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 3
+    place_holder_index: 38
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 7
+    alias: Date Placeholder 3
+    description: ''
+- index: 38
+  layout_name: Note on safe harbor/forward looking
+  mode: normal
+  shortname: Note on safe harbor/forward looking
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 2
+    placeholder_id: 3
+    alias: Title 2
+    description: ''
+  - index: 1
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 4
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 2
+    place_holder_index: 39
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 6
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 3
+    place_holder_index: 38
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 7
+    alias: Date Placeholder 3
+    description: ''
+- index: 39
+  layout_name: Speaker_1_Name
+  mode: normal
+  shortname: Speaker_1_Name
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 3
+    placeholder_id: 8
+    alias: Title 3
+    description: ''
+  - index: 1
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 10
+    placeholder_id: 11
+    alias: Slide Number Placeholder 10
+    description: ''
+  - index: 2
+    place_holder_index: 13
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 4
+    alias: Text Placeholder 33
+    description: ''
+  - index: 3
+    place_holder_index: 14
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 5
+    alias: Text Placeholder 33
+    description: ''
+  - index: 4
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 8
+    placeholder_id: 9
+    alias: Date Placeholder 8
+    description: ''
+  - index: 5
+    place_holder_index: 11
+    placeholder_name: Footer Placeholder 9
+    placeholder_id: 10
+    alias: Footer Placeholder 9
+    description: ''
+- index: 40
+  layout_name: Speaker_2_Name
+  mode: normal
+  shortname: Speaker_2_Name
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 3
+    placeholder_id: 8
+    alias: Title 3
+    description: ''
+  - index: 1
+    place_holder_index: 11
+    placeholder_name: Footer Placeholder 9
+    placeholder_id: 10
+    alias: Footer Placeholder 9
+    description: ''
+  - index: 2
+    place_holder_index: 13
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 6
+    alias: Text Placeholder 33
+    description: ''
+  - index: 3
+    place_holder_index: 14
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 7
+    alias: Text Placeholder 33
+    description: ''
+  - index: 4
+    place_holder_index: 19
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 12
+    alias: Text Placeholder 33
+    description: ''
+  - index: 5
+    place_holder_index: 20
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 13
+    alias: Text Placeholder 33
+    description: ''
+  - index: 6
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 10
+    placeholder_id: 11
+    alias: Slide Number Placeholder 10
+    description: ''
+  - index: 7
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 8
+    placeholder_id: 9
+    alias: Date Placeholder 8
+    description: ''
+- index: 41
+  layout_name: Speaker_3_Name
+  mode: normal
+  shortname: Speaker_3_Name
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 3
+    placeholder_id: 8
+    alias: Title 3
+    description: ''
+  - index: 1
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 8
+    placeholder_id: 9
+    alias: Date Placeholder 8
+    description: ''
+  - index: 2
+    place_holder_index: 13
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 2
+    alias: Text Placeholder 33
+    description: ''
+  - index: 3
+    place_holder_index: 14
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 4
+    alias: Text Placeholder 33
+    description: ''
+  - index: 4
+    place_holder_index: 28
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 5
+    alias: Text Placeholder 33
+    description: ''
+  - index: 5
+    place_holder_index: 29
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 14
+    alias: Text Placeholder 33
+    description: ''
+  - index: 6
+    place_holder_index: 30
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 15
+    alias: Text Placeholder 33
+    description: ''
+  - index: 7
+    place_holder_index: 31
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 16
+    alias: Text Placeholder 33
+    description: ''
+  - index: 8
+    place_holder_index: 11
+    placeholder_name: Footer Placeholder 9
+    placeholder_id: 10
+    alias: Footer Placeholder 9
+    description: ''
+  - index: 9
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 10
+    placeholder_id: 11
+    alias: Slide Number Placeholder 10
+    description: ''
+- index: 42
+  layout_name: Speaker_4_Name
+  mode: normal
+  shortname: Speaker_4_Name
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 3
+    placeholder_id: 8
+    alias: Title 3
+    description: ''
+  - index: 1
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 8
+    placeholder_id: 9
+    alias: Date Placeholder 8
+    description: ''
+  - index: 2
+    place_holder_index: 11
+    placeholder_name: Footer Placeholder 9
+    placeholder_id: 10
+    alias: Footer Placeholder 9
+    description: ''
+  - index: 3
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 10
+    placeholder_id: 11
+    alias: Slide Number Placeholder 10
+    description: ''
+  - index: 4
+    place_holder_index: 13
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 6
+    alias: Text Placeholder 33
+    description: ''
+  - index: 5
+    place_holder_index: 14
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 7
+    alias: Text Placeholder 33
+    description: ''
+  - index: 6
+    place_holder_index: 35
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 12
+    alias: Text Placeholder 33
+    description: ''
+  - index: 7
+    place_holder_index: 36
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 13
+    alias: Text Placeholder 33
+    description: ''
+  - index: 8
+    place_holder_index: 37
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 17
+    alias: Text Placeholder 33
+    description: ''
+  - index: 9
+    place_holder_index: 38
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 18
+    alias: Text Placeholder 33
+    description: ''
+  - index: 10
+    place_holder_index: 39
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 19
+    alias: Text Placeholder 33
+    description: ''
+  - index: 11
+    place_holder_index: 40
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 20
+    alias: Text Placeholder 33
+    description: ''
+- index: 43
+  layout_name: Dark - Agenda
+  mode: dark
+  shortname: Agenda
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 2
+    placeholder_id: 3
+    alias: Title 2
+    description: ''
+  - index: 1
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 2
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 2
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 5
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 3
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 8
+    alias: Date Placeholder 4
+    description: ''
+- index: 44
+  layout_name: Light - Agenda
+  mode: light
+  shortname: Agenda
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 2
+    placeholder_id: 3
+    alias: Title 2
+    description: ''
+  - index: 1
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 2
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 2
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 5
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 3
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 8
+    alias: Date Placeholder 4
+    description: ''
+- index: 45
+  layout_name: Dark - Agenda Table
+  mode: dark
+  shortname: Agenda Table
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 2
+    placeholder_id: 3
+    alias: Title 2
+    description: ''
+  - index: 1
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 2
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 2
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 5
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 3
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 8
+    alias: Date Placeholder 4
+    description: ''
+  - index: 4
+    place_holder_index: 14
+    placeholder_name: Content
+    placeholder_id: 4
+    alias: Content
+    description: ''
+  - index: 5
+    place_holder_index: 18
+    placeholder_name: Content
+    placeholder_id: 7
+    alias: Content
+    description: ''
+- index: 46
+  layout_name: Light - Agenda Table
+  mode: light
+  shortname: Agenda Table
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 2
+    placeholder_id: 3
+    alias: Title 2
+    description: ''
+  - index: 1
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 2
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 2
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 5
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 3
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 8
+    alias: Date Placeholder 4
+    description: ''
+  - index: 4
+    place_holder_index: 14
+    placeholder_name: Content
+    placeholder_id: 4
+    alias: Content
+    description: ''
+  - index: 5
+    place_holder_index: 18
+    placeholder_name: Content
+    placeholder_id: 7
+    alias: Content
+    description: ''
+- index: 47
+  layout_name: "Multi Statement \u2013 Dark"
+  mode: normal
+  shortname: "Multi Statement \u2013"
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 9
+    alias: Date Placeholder 4
+    description: ''
+  - index: 1
+    place_holder_index: 17
+    placeholder_name: Text Placeholder 2
+    placeholder_id: 6
+    alias: Text Placeholder 2
+    description: ''
+  - index: 2
+    place_holder_index: 18
+    placeholder_name: Text Placeholder 4
+    placeholder_id: 10
+    alias: Text Placeholder 4
+    description: ''
+  - index: 3
+    place_holder_index: 19
+    placeholder_name: Text Placeholder 7
+    placeholder_id: 11
+    alias: Text Placeholder 7
+    description: ''
+  - index: 4
+    place_holder_index: 20
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 2
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 5
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 7
+    alias: Footer Placeholder 6
+    description: ''
+- index: 48
+  layout_name: "Multi Statement \u2013 Light"
+  mode: normal
+  shortname: "Multi Statement \u2013"
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 38
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 8
+    alias: Date Placeholder 3
+    description: ''
+  - index: 1
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 3
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 2
+    place_holder_index: 39
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 5
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 3
+    place_holder_index: 17
+    placeholder_name: Text Placeholder 2
+    placeholder_id: 2
+    alias: Text Placeholder 2
+    description: ''
+  - index: 4
+    place_holder_index: 18
+    placeholder_name: Text Placeholder 4
+    placeholder_id: 7
+    alias: Text Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 19
+    placeholder_name: Text Placeholder 7
+    placeholder_id: 9
+    alias: Text Placeholder 7
+    description: ''
+- index: 49
+  layout_name: Speaker_1
+  mode: normal
+  shortname: Speaker_1
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 2
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 10
+    placeholder_name: Picture Placeholder 4
+    placeholder_id: 19
+    alias: Picture Placeholder 4
+    description: ''
+  - index: 2
+    place_holder_index: 12
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 37
+    alias: Text Placeholder 33
+    description: ''
+  - index: 3
+    place_holder_index: 13
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 38
+    alias: Text Placeholder 33
+    description: ''
+  - index: 4
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 3
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 5
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 4
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 6
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 5
+    alias: Date Placeholder 4
+    description: ''
+- index: 50
+  layout_name: Speaker_1-Profile
+  mode: normal
+  shortname: Speaker_1-Profile
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 3
+    placeholder_id: 3
+    alias: Title 3
+    description: ''
+  - index: 1
+    place_holder_index: 10
+    placeholder_name: Picture Placeholder 4
+    placeholder_id: 19
+    alias: Picture Placeholder 4
+    description: ''
+  - index: 2
+    place_holder_index: 12
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 37
+    alias: Text Placeholder 33
+    description: ''
+  - index: 3
+    place_holder_index: 13
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 38
+    alias: Text Placeholder 33
+    description: ''
+  - index: 4
+    place_holder_index: 16
+    placeholder_name: Content Placeholder 4
+    placeholder_id: 5
+    alias: Content Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 2
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 6
+    place_holder_index: 18
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 4
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 7
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 6
+    alias: Date Placeholder 4
+    description: ''
+- index: 51
+  layout_name: Speaker_2
+  mode: normal
+  shortname: Speaker_2
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 2
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 10
+    placeholder_name: Picture Placeholder 4
+    placeholder_id: 19
+    alias: Picture Placeholder 4
+    description: ''
+  - index: 2
+    place_holder_index: 12
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 37
+    alias: Text Placeholder 33
+    description: ''
+  - index: 3
+    place_holder_index: 13
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 38
+    alias: Text Placeholder 33
+    description: ''
+  - index: 4
+    place_holder_index: 19
+    placeholder_name: Picture Placeholder 4
+    placeholder_id: 17
+    alias: Picture Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 20
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 21
+    alias: Text Placeholder 33
+    description: ''
+  - index: 6
+    place_holder_index: 21
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 25
+    alias: Text Placeholder 33
+    description: ''
+  - index: 7
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 3
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 8
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 4
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 9
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 5
+    alias: Date Placeholder 4
+    description: ''
+- index: 52
+  layout_name: Speaker_3
+  mode: normal
+  shortname: Speaker_3
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 32
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 10
+    placeholder_name: Picture Placeholder 4
+    placeholder_id: 19
+    alias: Picture Placeholder 4
+    description: ''
+  - index: 2
+    place_holder_index: 12
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 37
+    alias: Text Placeholder 33
+    description: ''
+  - index: 3
+    place_holder_index: 13
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 38
+    alias: Text Placeholder 33
+    description: ''
+  - index: 4
+    place_holder_index: 28
+    placeholder_name: Picture Placeholder 4
+    placeholder_id: 31
+    alias: Picture Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 29
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 33
+    alias: Text Placeholder 33
+    description: ''
+  - index: 6
+    place_holder_index: 30
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 34
+    alias: Text Placeholder 33
+    description: ''
+  - index: 7
+    place_holder_index: 31
+    placeholder_name: Picture Placeholder 4
+    placeholder_id: 35
+    alias: Picture Placeholder 4
+    description: ''
+  - index: 8
+    place_holder_index: 32
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 36
+    alias: Text Placeholder 33
+    description: ''
+  - index: 9
+    place_holder_index: 33
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 39
+    alias: Text Placeholder 33
+    description: ''
+  - index: 10
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 2
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 11
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 3
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 12
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 4
+    alias: Date Placeholder 4
+    description: ''
+- index: 53
+  layout_name: Speaker_4
+  mode: normal
+  shortname: Speaker_4
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 36
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 10
+    placeholder_name: Picture Placeholder 4
+    placeholder_id: 19
+    alias: Picture Placeholder 4
+    description: ''
+  - index: 2
+    place_holder_index: 12
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 37
+    alias: Text Placeholder 33
+    description: ''
+  - index: 3
+    place_holder_index: 13
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 38
+    alias: Text Placeholder 33
+    description: ''
+  - index: 4
+    place_holder_index: 16
+    placeholder_name: Picture Placeholder 4
+    placeholder_id: 50
+    alias: Picture Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 23
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 22
+    alias: Text Placeholder 33
+    description: ''
+  - index: 6
+    place_holder_index: 24
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 23
+    alias: Text Placeholder 33
+    description: ''
+  - index: 7
+    place_holder_index: 27
+    placeholder_name: Picture Placeholder 4
+    placeholder_id: 30
+    alias: Picture Placeholder 4
+    description: ''
+  - index: 8
+    place_holder_index: 25
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 28
+    alias: Text Placeholder 33
+    description: ''
+  - index: 9
+    place_holder_index: 26
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 29
+    alias: Text Placeholder 33
+    description: ''
+  - index: 10
+    place_holder_index: 28
+    placeholder_name: Picture Placeholder 4
+    placeholder_id: 31
+    alias: Picture Placeholder 4
+    description: ''
+  - index: 11
+    place_holder_index: 29
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 32
+    alias: Text Placeholder 33
+    description: ''
+  - index: 12
+    place_holder_index: 30
+    placeholder_name: Text Placeholder 33
+    placeholder_id: 33
+    alias: Text Placeholder 33
+    description: ''
+  - index: 13
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 2
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 14
+    place_holder_index: 31
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 3
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 15
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 4
+    alias: Date Placeholder 4
+    description: ''
+- index: 54
+  layout_name: Speaker_6
+  mode: normal
+  shortname: Speaker_6
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 4
+    placeholder_id: 5
+    alias: Title 4
+    description: ''
+  - index: 1
+    place_holder_index: 10
+    placeholder_name: Picture 1
+    placeholder_id: 19
+    alias: Picture 1
+    description: ''
+  - index: 2
+    place_holder_index: 12
+    placeholder_name: Name 1
+    placeholder_id: 37
+    alias: Name 1
+    description: ''
+  - index: 3
+    place_holder_index: 13
+    placeholder_name: TItle 1
+    placeholder_id: 38
+    alias: TItle 1
+    description: ''
+  - index: 4
+    place_holder_index: 38
+    placeholder_name: Picture 2
+    placeholder_id: 88
+    alias: Picture 2
+    description: ''
+  - index: 5
+    place_holder_index: 39
+    placeholder_name: Name 2
+    placeholder_id: 89
+    alias: Name 2
+    description: ''
+  - index: 6
+    place_holder_index: 40
+    placeholder_name: Title 2
+    placeholder_id: 90
+    alias: Title 2
+    description: ''
+  - index: 7
+    place_holder_index: 32
+    placeholder_name: Picture 3
+    placeholder_id: 82
+    alias: Picture 3
+    description: ''
+  - index: 8
+    place_holder_index: 33
+    placeholder_name: Name 3
+    placeholder_id: 83
+    alias: Name 3
+    description: ''
+  - index: 9
+    place_holder_index: 34
+    placeholder_name: Name 3
+    placeholder_id: 84
+    alias: Name 3
+    description: ''
+  - index: 10
+    place_holder_index: 41
+    placeholder_name: Picture 4
+    placeholder_id: 91
+    alias: Picture 4
+    description: ''
+  - index: 11
+    place_holder_index: 42
+    placeholder_name: Name 4
+    placeholder_id: 92
+    alias: Name 4
+    description: ''
+  - index: 12
+    place_holder_index: 43
+    placeholder_name: Title 4
+    placeholder_id: 93
+    alias: Title 4
+    description: ''
+  - index: 13
+    place_holder_index: 35
+    placeholder_name: Picture 5
+    placeholder_id: 85
+    alias: Picture 5
+    description: ''
+  - index: 14
+    place_holder_index: 36
+    placeholder_name: Name 5
+    placeholder_id: 86
+    alias: Name 5
+    description: ''
+  - index: 15
+    place_holder_index: 37
+    placeholder_name: Title 5
+    placeholder_id: 87
+    alias: Title 5
+    description: ''
+  - index: 16
+    place_holder_index: 44
+    placeholder_name: Picture 6
+    placeholder_id: 94
+    alias: Picture 6
+    description: ''
+  - index: 17
+    place_holder_index: 45
+    placeholder_name: Name 6
+    placeholder_id: 95
+    alias: Name 6
+    description: ''
+  - index: 18
+    place_holder_index: 46
+    placeholder_name: Name 7
+    placeholder_id: 96
+    alias: Name 7
+    description: ''
+  - index: 19
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 2
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 20
+    place_holder_index: 31
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 3
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 21
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 4
+    alias: Date Placeholder 4
+    description: ''
+- index: 55
+  layout_name: Speaker_10
+  mode: normal
+  shortname: Speaker_10
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 4
+    placeholder_id: 5
+    alias: Title 4
+    description: ''
+  - index: 1
+    place_holder_index: 10
+    placeholder_name: Picture 1
+    placeholder_id: 19
+    alias: Picture 1
+    description: ''
+  - index: 2
+    place_holder_index: 12
+    placeholder_name: Name 1
+    placeholder_id: 37
+    alias: Name 1
+    description: ''
+  - index: 3
+    place_holder_index: 13
+    placeholder_name: Title 1
+    placeholder_id: 38
+    alias: Title 1
+    description: ''
+  - index: 4
+    place_holder_index: 32
+    placeholder_name: Picture 2
+    placeholder_id: 52
+    alias: Picture 2
+    description: ''
+  - index: 5
+    place_holder_index: 33
+    placeholder_name: Name 2
+    placeholder_id: 53
+    alias: Name 2
+    description: ''
+  - index: 6
+    place_holder_index: 34
+    placeholder_name: Title 2
+    placeholder_id: 54
+    alias: Title 2
+    description: ''
+  - index: 7
+    place_holder_index: 35
+    placeholder_name: 'Picture 3 '
+    placeholder_id: 55
+    alias: 'Picture 3 '
+    description: ''
+  - index: 8
+    place_holder_index: 36
+    placeholder_name: Name 3
+    placeholder_id: 56
+    alias: Name 3
+    description: ''
+  - index: 9
+    place_holder_index: 37
+    placeholder_name: Title 3
+    placeholder_id: 57
+    alias: Title 3
+    description: ''
+  - index: 10
+    place_holder_index: 38
+    placeholder_name: Picture 4
+    placeholder_id: 58
+    alias: Picture 4
+    description: ''
+  - index: 11
+    place_holder_index: 39
+    placeholder_name: Name 4
+    placeholder_id: 59
+    alias: Name 4
+    description: ''
+  - index: 12
+    place_holder_index: 40
+    placeholder_name: Title 4
+    placeholder_id: 60
+    alias: Title 4
+    description: ''
+  - index: 13
+    place_holder_index: 41
+    placeholder_name: Picture 5
+    placeholder_id: 61
+    alias: Picture 5
+    description: ''
+  - index: 14
+    place_holder_index: 42
+    placeholder_name: Name 5
+    placeholder_id: 62
+    alias: Name 5
+    description: ''
+  - index: 15
+    place_holder_index: 43
+    placeholder_name: Title 5
+    placeholder_id: 63
+    alias: Title 5
+    description: ''
+  - index: 16
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 2
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 17
+    place_holder_index: 31
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 3
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 18
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 4
+    alias: Date Placeholder 4
+    description: ''
+  - index: 19
+    place_holder_index: 44
+    placeholder_name: Picture 1
+    placeholder_id: 6
+    alias: Picture 1
+    description: ''
+  - index: 20
+    place_holder_index: 45
+    placeholder_name: Name 1
+    placeholder_id: 7
+    alias: Name 1
+    description: ''
+  - index: 21
+    place_holder_index: 46
+    placeholder_name: Title 1
+    placeholder_id: 8
+    alias: Title 1
+    description: ''
+  - index: 22
+    place_holder_index: 47
+    placeholder_name: Picture 2
+    placeholder_id: 9
+    alias: Picture 2
+    description: ''
+  - index: 23
+    place_holder_index: 48
+    placeholder_name: Name 2
+    placeholder_id: 10
+    alias: Name 2
+    description: ''
+  - index: 24
+    place_holder_index: 49
+    placeholder_name: Title 2
+    placeholder_id: 11
+    alias: Title 2
+    description: ''
+  - index: 25
+    place_holder_index: 50
+    placeholder_name: 'Picture 3 '
+    placeholder_id: 12
+    alias: 'Picture 3 '
+    description: ''
+  - index: 26
+    place_holder_index: 51
+    placeholder_name: Name 3
+    placeholder_id: 13
+    alias: Name 3
+    description: ''
+  - index: 27
+    place_holder_index: 52
+    placeholder_name: Title 3
+    placeholder_id: 14
+    alias: Title 3
+    description: ''
+  - index: 28
+    place_holder_index: 53
+    placeholder_name: Picture 4
+    placeholder_id: 15
+    alias: Picture 4
+    description: ''
+  - index: 29
+    place_holder_index: 54
+    placeholder_name: Name 4
+    placeholder_id: 16
+    alias: Name 4
+    description: ''
+  - index: 30
+    place_holder_index: 55
+    placeholder_name: Title 4
+    placeholder_id: 17
+    alias: Title 4
+    description: ''
+  - index: 31
+    place_holder_index: 56
+    placeholder_name: Picture 5
+    placeholder_id: 18
+    alias: Picture 5
+    description: ''
+  - index: 32
+    place_holder_index: 57
+    placeholder_name: Name 5
+    placeholder_id: 20
+    alias: Name 5
+    description: ''
+  - index: 33
+    place_holder_index: 58
+    placeholder_name: Title 5
+    placeholder_id: 21
+    alias: Title 5
+    description: ''
+- index: 56
+  layout_name: Title + 3points Light
+  mode: normal
+  shortname: Title + 3points
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 2
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 12
+    placeholder_name: Text Placeholder 5
+    placeholder_id: 6
+    alias: Text Placeholder 5
+    description: ''
+  - index: 2
+    place_holder_index: 13
+    placeholder_name: Picture Placeholder 7
+    placeholder_id: 8
+    alias: Picture Placeholder 7
+    description: ''
+  - index: 3
+    place_holder_index: 14
+    placeholder_name: Text Placeholder 9
+    placeholder_id: 10
+    alias: Text Placeholder 9
+    description: ''
+  - index: 4
+    place_holder_index: 15
+    placeholder_name: Picture Placeholder 7
+    placeholder_id: 11
+    alias: Picture Placeholder 7
+    description: ''
+  - index: 5
+    place_holder_index: 16
+    placeholder_name: Text Placeholder 9
+    placeholder_id: 12
+    alias: Text Placeholder 9
+    description: ''
+  - index: 6
+    place_holder_index: 17
+    placeholder_name: Picture Placeholder 7
+    placeholder_id: 13
+    alias: Picture Placeholder 7
+    description: ''
+  - index: 7
+    place_holder_index: 18
+    placeholder_name: Text Placeholder 9
+    placeholder_id: 14
+    alias: Text Placeholder 9
+    description: ''
+  - index: 8
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 3
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 9
+    place_holder_index: 39
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 5
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 10
+    place_holder_index: 38
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 7
+    alias: Date Placeholder 3
+    description: ''
+- index: 57
+  layout_name: Title + 3points Dark
+  mode: normal
+  shortname: Title + 3points
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 2
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 12
+    placeholder_name: Text Placeholder 5
+    placeholder_id: 6
+    alias: Text Placeholder 5
+    description: ''
+  - index: 2
+    place_holder_index: 13
+    placeholder_name: Picture Placeholder 7
+    placeholder_id: 8
+    alias: Picture Placeholder 7
+    description: ''
+  - index: 3
+    place_holder_index: 14
+    placeholder_name: Text Placeholder 9
+    placeholder_id: 10
+    alias: Text Placeholder 9
+    description: ''
+  - index: 4
+    place_holder_index: 15
+    placeholder_name: Picture Placeholder 7
+    placeholder_id: 11
+    alias: Picture Placeholder 7
+    description: ''
+  - index: 5
+    place_holder_index: 16
+    placeholder_name: Text Placeholder 9
+    placeholder_id: 12
+    alias: Text Placeholder 9
+    description: ''
+  - index: 6
+    place_holder_index: 17
+    placeholder_name: Picture Placeholder 7
+    placeholder_id: 13
+    alias: Picture Placeholder 7
+    description: ''
+  - index: 7
+    place_holder_index: 18
+    placeholder_name: Text Placeholder 9
+    placeholder_id: 14
+    alias: Text Placeholder 9
+    description: ''
+  - index: 8
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 3
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 9
+    place_holder_index: 39
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 5
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 10
+    place_holder_index: 38
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 7
+    alias: Date Placeholder 3
+    description: ''
+- index: 58
+  layout_name: Light - Title
+  mode: light
+  shortname: Title
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 3
+    placeholder_id: 8
+    alias: Title 3
+    description: ''
+  - index: 1
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 3
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 2
+    place_holder_index: 39
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 4
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 3
+    place_holder_index: 38
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 5
+    alias: Date Placeholder 3
+    description: ''
+- index: 59
+  layout_name: Dark - Title
+  mode: dark
+  shortname: Title
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 3
+    placeholder_id: 8
+    alias: Title 3
+    description: ''
+  - index: 1
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 8
+    placeholder_id: 9
+    alias: Date Placeholder 8
+    description: ''
+  - index: 2
+    place_holder_index: 11
+    placeholder_name: Footer Placeholder 9
+    placeholder_id: 10
+    alias: Footer Placeholder 9
+    description: ''
+  - index: 3
+    place_holder_index: 12
+    placeholder_name: Slide Number Placeholder 10
+    placeholder_id: 11
+    alias: Slide Number Placeholder 10
+    description: ''
+- index: 60
+  layout_name: Light - Title/Subtitle
+  mode: light
+  shortname: Title/Subtitle
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 3
+    placeholder_id: 4
+    alias: Title 3
+    description: ''
+  - index: 1
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 2
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 2
+    place_holder_index: 39
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 7
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 3
+    place_holder_index: 38
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 8
+    alias: Date Placeholder 3
+    description: ''
+  - index: 4
+    place_holder_index: 11
+    placeholder_name: Subtitle
+    placeholder_id: 3
+    alias: Subtitle
+    description: ''
+- index: 61
+  layout_name: Dark - Title/Subtitle
+  mode: dark
+  shortname: Title/Subtitle
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 3
+    placeholder_id: 4
+    alias: Title 3
+    description: ''
+  - index: 1
+    place_holder_index: 11
+    placeholder_name: Subtitle
+    placeholder_id: 6
+    alias: Subtitle
+    description: ''
+  - index: 2
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 5
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 3
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 8
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 4
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 9
+    alias: Date Placeholder 4
+    description: ''
+- index: 62
+  layout_name: Light - Title 1 Column
+  mode: light
+  shortname: Title 1 Column
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 12
+    placeholder_id: 13
+    alias: Title 12
+    description: ''
+  - index: 1
+    place_holder_index: 14
+    placeholder_name: Content
+    placeholder_id: 2
+    alias: Content
+    description: ''
+  - index: 2
+    place_holder_index: 4
+    placeholder_name: Slide Number
+    placeholder_id: 17
+    alias: Slide Number
+    description: ''
+  - index: 3
+    place_holder_index: 3
+    placeholder_name: Footer
+    placeholder_id: 18
+    alias: Footer
+    description: ''
+  - index: 4
+    place_holder_index: 2
+    placeholder_name: Date
+    placeholder_id: 19
+    alias: Date
+    description: ''
+- index: 63
+  layout_name: Dark - Title 1 Column
+  mode: dark
+  shortname: Title 1 Column
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 12
+    placeholder_id: 13
+    alias: Title 12
+    description: ''
+  - index: 1
+    place_holder_index: 14
+    placeholder_name: Content
+    placeholder_id: 2
+    alias: Content
+    description: ''
+  - index: 2
+    place_holder_index: 4
+    placeholder_name: Slide Number
+    placeholder_id: 17
+    alias: Slide Number
+    description: ''
+  - index: 3
+    place_holder_index: 3
+    placeholder_name: Footer
+    placeholder_id: 18
+    alias: Footer
+    description: ''
+  - index: 4
+    place_holder_index: 2
+    placeholder_name: Date
+    placeholder_id: 19
+    alias: Date
+    description: ''
+- index: 64
+  layout_name: Light - Title/Subtitle 1 Column
+  mode: light
+  shortname: Title/Subtitle 1 Column
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 2
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 14
+    placeholder_name: Content
+    placeholder_id: 9
+    alias: Content
+    description: ''
+  - index: 2
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 8
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 3
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 7
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 4
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 5
+    alias: Date Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 11
+    placeholder_name: Subtitle
+    placeholder_id: 3
+    alias: Subtitle
+    description: ''
+- index: 65
+  layout_name: Dark - Title/Subtitle 1 Column
+  mode: dark
+  shortname: Title/Subtitle 1 Column
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 2
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 11
+    placeholder_name: Subtitle
+    placeholder_id: 3
+    alias: Subtitle
+    description: ''
+  - index: 2
+    place_holder_index: 14
+    placeholder_name: Content
+    placeholder_id: 6
+    alias: Content
+    description: ''
+  - index: 3
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 8
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 4
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 7
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 5
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 5
+    alias: Date Placeholder 4
+    description: ''
+- index: 66
+  layout_name: Light - Title/Subtitle 2 Column
+  mode: light
+  shortname: Title/Subtitle 2 Column
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 4
+    placeholder_id: 5
+    alias: Title 4
+    description: ''
+  - index: 1
+    place_holder_index: 14
+    placeholder_name: Content
+    placeholder_id: 2
+    alias: Content
+    description: ''
+  - index: 2
+    place_holder_index: 19
+    placeholder_name: Content
+    placeholder_id: 3
+    alias: Content
+    description: ''
+  - index: 3
+    place_holder_index: 18
+    placeholder_name: Slide Number Placeholder 8
+    placeholder_id: 9
+    alias: Slide Number Placeholder 8
+    description: ''
+  - index: 4
+    place_holder_index: 17
+    placeholder_name: Footer Placeholder 7
+    placeholder_id: 8
+    alias: Footer Placeholder 7
+    description: ''
+  - index: 5
+    place_holder_index: 16
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 4
+    alias: Date Placeholder 3
+    description: ''
+  - index: 6
+    place_holder_index: 11
+    placeholder_name: Subtitle
+    placeholder_id: 7
+    alias: Subtitle
+    description: ''
+- index: 67
+  layout_name: Dark - Title/Subtitle 2 Column
+  mode: dark
+  shortname: Title/Subtitle 2 Column
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 11
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 11
+    placeholder_name: Subtitle
+    placeholder_id: 12
+    alias: Subtitle
+    description: ''
+  - index: 2
+    place_holder_index: 14
+    placeholder_name: Content
+    placeholder_id: 4
+    alias: Content
+    description: ''
+  - index: 3
+    place_holder_index: 19
+    placeholder_name: Content
+    placeholder_id: 8
+    alias: Content
+    description: ''
+  - index: 4
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 2
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 5
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 5
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 6
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 7
+    alias: Date Placeholder 4
+    description: ''
+- index: 68
+  layout_name: Light - Title/Subtitle 3 Column
+  mode: light
+  shortname: Title/Subtitle 3 Column
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 2
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 11
+    placeholder_name: Subtitle
+    placeholder_id: 11
+    alias: Subtitle
+    description: ''
+  - index: 2
+    place_holder_index: 14
+    placeholder_name: Content
+    placeholder_id: 4
+    alias: Content
+    description: ''
+  - index: 3
+    place_holder_index: 20
+    placeholder_name: Content
+    placeholder_id: 9
+    alias: Content
+    description: ''
+  - index: 4
+    place_holder_index: 21
+    placeholder_name: Content
+    placeholder_id: 10
+    alias: Content
+    description: ''
+  - index: 5
+    place_holder_index: 17
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 5
+    alias: Date Placeholder 4
+    description: ''
+  - index: 6
+    place_holder_index: 18
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 7
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 7
+    place_holder_index: 19
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 8
+    alias: Slide Number Placeholder 7
+    description: ''
+- index: 69
+  layout_name: Dark - Title/Subtitle 3 Column
+  mode: dark
+  shortname: Title/Subtitle 3 Column
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 4
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 11
+    placeholder_name: Subtitle
+    placeholder_id: 9
+    alias: Subtitle
+    description: ''
+  - index: 2
+    place_holder_index: 14
+    placeholder_name: Content
+    placeholder_id: 2
+    alias: Content
+    description: ''
+  - index: 3
+    place_holder_index: 20
+    placeholder_name: Content
+    placeholder_id: 10
+    alias: Content
+    description: ''
+  - index: 4
+    place_holder_index: 21
+    placeholder_name: Content
+    placeholder_id: 11
+    alias: Content
+    description: ''
+  - index: 5
+    place_holder_index: 19
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 8
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 6
+    place_holder_index: 18
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 7
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 7
+    place_holder_index: 17
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 5
+    alias: Date Placeholder 4
+    description: ''
+- index: 70
+  layout_name: Dark - Title/Subtitle 4 Column
+  mode: dark
+  shortname: Title/Subtitle 4 Column
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 14
+    placeholder_name: Content
+    placeholder_id: 6
+    alias: Content
+    description: ''
+  - index: 1
+    place_holder_index: 15
+    placeholder_name: Content 2
+    placeholder_id: 18
+    alias: Content 2
+    description: ''
+  - index: 2
+    place_holder_index: 16
+    placeholder_name: Content 3
+    placeholder_id: 21
+    alias: Content 3
+    description: ''
+  - index: 3
+    place_holder_index: 19
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 8
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 4
+    place_holder_index: 18
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 7
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 5
+    place_holder_index: 17
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 5
+    alias: Date Placeholder 4
+    description: ''
+  - index: 6
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 4
+    alias: Title 1
+    description: ''
+  - index: 7
+    place_holder_index: 11
+    placeholder_name: Subtitle
+    placeholder_id: 9
+    alias: Subtitle
+    description: ''
+  - index: 8
+    place_holder_index: 20
+    placeholder_name: Content 3
+    placeholder_id: 2
+    alias: Content 3
+    description: ''
+- index: 71
+  layout_name: Light - Title/Subtitle 4 Column
+  mode: light
+  shortname: Title/Subtitle 4 Column
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 14
+    placeholder_name: Content
+    placeholder_id: 6
+    alias: Content
+    description: ''
+  - index: 1
+    place_holder_index: 15
+    placeholder_name: Content 2
+    placeholder_id: 18
+    alias: Content 2
+    description: ''
+  - index: 2
+    place_holder_index: 16
+    placeholder_name: Content 3
+    placeholder_id: 21
+    alias: Content 3
+    description: ''
+  - index: 3
+    place_holder_index: 19
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 8
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 4
+    place_holder_index: 18
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 7
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 5
+    place_holder_index: 17
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 5
+    alias: Date Placeholder 4
+    description: ''
+  - index: 6
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 4
+    alias: Title 1
+    description: ''
+  - index: 7
+    place_holder_index: 20
+    placeholder_name: Content 3
+    placeholder_id: 2
+    alias: Content 3
+    description: ''
+  - index: 8
+    place_holder_index: 11
+    placeholder_name: Subtitle
+    placeholder_id: 11
+    alias: Subtitle
+    description: ''
+- index: 72
+  layout_name: Light - Title, Content and 1/3 Photo
+  mode: light
+  shortname: Title, Content and 1/3 Photo
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 2
+    placeholder_id: 3
+    alias: Title 2
+    description: ''
+  - index: 1
+    place_holder_index: 14
+    placeholder_name: Content
+    placeholder_id: 4
+    alias: Content
+    description: ''
+  - index: 2
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 2
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 3
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 5
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 4
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 7
+    alias: Date Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 18
+    placeholder_name: Picture Placeholder 9
+    placeholder_id: 10
+    alias: Picture Placeholder 9
+    description: ''
+- index: 73
+  layout_name: Dark - Title, Content and 1/3 Photo
+  mode: dark
+  shortname: Title, Content and 1/3 Photo
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 2
+    placeholder_id: 3
+    alias: Title 2
+    description: ''
+  - index: 1
+    place_holder_index: 14
+    placeholder_name: Content
+    placeholder_id: 4
+    alias: Content
+    description: ''
+  - index: 2
+    place_holder_index: 18
+    placeholder_name: Picture Placeholder 9
+    placeholder_id: 10
+    alias: Picture Placeholder 9
+    description: ''
+  - index: 3
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 2
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 4
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 5
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 5
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 7
+    alias: Date Placeholder 4
+    description: ''
+- index: 74
+  layout_name: Light - Quote with Picture
+  mode: light
+  shortname: Quote with Picture
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Quote
+    placeholder_id: 3
+    alias: Quote
+    description: ''
+  - index: 1
+    place_holder_index: 37
+    placeholder_name: Text Field
+    placeholder_id: 13
+    alias: Text Field
+    description: ''
+  - index: 2
+    place_holder_index: 36
+    placeholder_name: Text Field 2
+    placeholder_id: 11
+    alias: Text Field 2
+    description: ''
+  - index: 3
+    place_holder_index: 47
+    placeholder_name: Content Placeholder 2
+    placeholder_id: 2
+    alias: Content Placeholder 2
+    description: ''
+  - index: 4
+    place_holder_index: 42
+    placeholder_name: Picture Placeholder 6
+    placeholder_id: 7
+    alias: Picture Placeholder 6
+    description: ''
+  - index: 5
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 9
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 6
+    place_holder_index: 39
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 10
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 7
+    place_holder_index: 38
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 12
+    alias: Date Placeholder 3
+    description: ''
+- index: 75
+  layout_name: Dark - Quote with Picture
+  mode: dark
+  shortname: Quote with Picture
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Quote
+    placeholder_id: 10
+    alias: Quote
+    description: ''
+  - index: 1
+    place_holder_index: 37
+    placeholder_name: Text Field
+    placeholder_id: 13
+    alias: Text Field
+    description: ''
+  - index: 2
+    place_holder_index: 36
+    placeholder_name: Text Field 2
+    placeholder_id: 11
+    alias: Text Field 2
+    description: ''
+  - index: 3
+    place_holder_index: 47
+    placeholder_name: Content Placeholder 2
+    placeholder_id: 2
+    alias: Content Placeholder 2
+    description: ''
+  - index: 4
+    place_holder_index: 42
+    placeholder_name: Picture Placeholder 4
+    placeholder_id: 5
+    alias: Picture Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 8
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 6
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 9
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 7
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 12
+    alias: Date Placeholder 4
+    description: ''
+- index: 76
+  layout_name: Left Rail - Light
+  mode: normal
+  shortname: Left Rail
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 7
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 11
+    placeholder_name: Subtitle
+    placeholder_id: 9
+    alias: Subtitle
+    description: ''
+  - index: 2
+    place_holder_index: 14
+    placeholder_name: Content
+    placeholder_id: 16
+    alias: Content
+    description: ''
+  - index: 3
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 12
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 4
+    place_holder_index: 41
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 13
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 42
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 14
+    alias: Date Placeholder 3
+    description: ''
+- index: 77
+  layout_name: Left Rail - Dark
+  mode: normal
+  shortname: Left Rail
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 7
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 11
+    placeholder_name: Subtitle
+    placeholder_id: 9
+    alias: Subtitle
+    description: ''
+  - index: 2
+    place_holder_index: 14
+    placeholder_name: Content
+    placeholder_id: 16
+    alias: Content
+    description: ''
+  - index: 3
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 12
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 4
+    place_holder_index: 41
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 13
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 42
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 14
+    alias: Date Placeholder 3
+    description: ''
+- index: 78
+  layout_name: Content + Illustration_Light
+  mode: normal
+  shortname: Content + Illustration_
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 23
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 43
+    placeholder_name: Subtitle
+    placeholder_id: 6
+    alias: Subtitle
+    description: ''
+  - index: 2
+    place_holder_index: 11
+    placeholder_name: Picture Placeholder 17
+    placeholder_id: 18
+    alias: Picture Placeholder 17
+    description: ''
+  - index: 3
+    place_holder_index: 32
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 14
+    alias: Text Placeholder 21
+    description: ''
+  - index: 4
+    place_holder_index: 44
+    placeholder_name: Text Placeholder 19
+    placeholder_id: 17
+    alias: Text Placeholder 19
+    description: ''
+  - index: 5
+    place_holder_index: 38
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 15
+    alias: Text Placeholder 21
+    description: ''
+  - index: 6
+    place_holder_index: 45
+    placeholder_name: Text Placeholder 19
+    placeholder_id: 19
+    alias: Text Placeholder 19
+    description: ''
+  - index: 7
+    place_holder_index: 39
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 16
+    alias: Text Placeholder 21
+    description: ''
+  - index: 8
+    place_holder_index: 46
+    placeholder_name: Text Placeholder 19
+    placeholder_id: 20
+    alias: Text Placeholder 19
+    description: ''
+  - index: 9
+    place_holder_index: 49
+    placeholder_name: Slide Number Placeholder 29
+    placeholder_id: 30
+    alias: Slide Number Placeholder 29
+    description: ''
+  - index: 10
+    place_holder_index: 48
+    placeholder_name: Footer Placeholder 28
+    placeholder_id: 29
+    alias: Footer Placeholder 28
+    description: ''
+  - index: 11
+    place_holder_index: 47
+    placeholder_name: Date Placeholder 20
+    placeholder_id: 21
+    alias: Date Placeholder 20
+    description: ''
+- index: 79
+  layout_name: Content + Illustration_Dark
+  mode: normal
+  shortname: Content + Illustration_
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 6
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 43
+    placeholder_name: Subtitle
+    placeholder_id: 13
+    alias: Subtitle
+    description: ''
+  - index: 2
+    place_holder_index: 32
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 7
+    alias: Text Placeholder 21
+    description: ''
+  - index: 3
+    place_holder_index: 44
+    placeholder_name: Text Placeholder 19
+    placeholder_id: 20
+    alias: Text Placeholder 19
+    description: ''
+  - index: 4
+    place_holder_index: 38
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 9
+    alias: Text Placeholder 21
+    description: ''
+  - index: 5
+    place_holder_index: 45
+    placeholder_name: Text Placeholder 19
+    placeholder_id: 21
+    alias: Text Placeholder 19
+    description: ''
+  - index: 6
+    place_holder_index: 39
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 11
+    alias: Text Placeholder 21
+    description: ''
+  - index: 7
+    place_holder_index: 46
+    placeholder_name: Text Placeholder 19
+    placeholder_id: 22
+    alias: Text Placeholder 19
+    description: ''
+  - index: 8
+    place_holder_index: 11
+    placeholder_name: Picture Placeholder 17
+    placeholder_id: 18
+    alias: Picture Placeholder 17
+    description: ''
+  - index: 9
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 3
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 10
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 4
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 11
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 5
+    alias: Date Placeholder 4
+    description: ''
+- index: 80
+  layout_name: Light - 3 Icons, Subhead and text
+  mode: light
+  shortname: 3 Icons, Subhead and text
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 2
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 26
+    placeholder_name: Picture Placeholder 2
+    placeholder_id: 3
+    alias: Picture Placeholder 2
+    description: ''
+  - index: 2
+    place_holder_index: 25
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 14
+    alias: Text Placeholder 21
+    description: ''
+  - index: 3
+    place_holder_index: 24
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 11
+    alias: Text Placeholder 21
+    description: ''
+  - index: 4
+    place_holder_index: 33
+    placeholder_name: Picture Placeholder 2
+    placeholder_id: 22
+    alias: Picture Placeholder 2
+    description: ''
+  - index: 5
+    place_holder_index: 34
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 23
+    alias: Text Placeholder 21
+    description: ''
+  - index: 6
+    place_holder_index: 35
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 29
+    alias: Text Placeholder 21
+    description: ''
+  - index: 7
+    place_holder_index: 36
+    placeholder_name: Picture Placeholder 2
+    placeholder_id: 30
+    alias: Picture Placeholder 2
+    description: ''
+  - index: 8
+    place_holder_index: 37
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 31
+    alias: Text Placeholder 21
+    description: ''
+  - index: 9
+    place_holder_index: 38
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 32
+    alias: Text Placeholder 21
+    description: ''
+  - index: 10
+    place_holder_index: 40
+    placeholder_name: Footer Placeholder 8
+    placeholder_id: 9
+    alias: Footer Placeholder 8
+    description: ''
+  - index: 11
+    place_holder_index: 41
+    placeholder_name: Slide Number Placeholder 9
+    placeholder_id: 10
+    alias: Slide Number Placeholder 9
+    description: ''
+  - index: 12
+    place_holder_index: 39
+    placeholder_name: Date Placeholder 7
+    placeholder_id: 8
+    alias: Date Placeholder 7
+    description: ''
+- index: 81
+  layout_name: Dark - 3 Icons, Subhead and text
+  mode: dark
+  shortname: 3 Icons, Subhead and text
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 7
+    placeholder_id: 8
+    alias: Title 7
+    description: ''
+  - index: 1
+    place_holder_index: 26
+    placeholder_name: Picture Placeholder 2
+    placeholder_id: 18
+    alias: Picture Placeholder 2
+    description: ''
+  - index: 2
+    place_holder_index: 25
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 19
+    alias: Text Placeholder 21
+    description: ''
+  - index: 3
+    place_holder_index: 24
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 21
+    alias: Text Placeholder 21
+    description: ''
+  - index: 4
+    place_holder_index: 36
+    placeholder_name: Picture Placeholder 2
+    placeholder_id: 23
+    alias: Picture Placeholder 2
+    description: ''
+  - index: 5
+    place_holder_index: 37
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 29
+    alias: Text Placeholder 21
+    description: ''
+  - index: 6
+    place_holder_index: 38
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 30
+    alias: Text Placeholder 21
+    description: ''
+  - index: 7
+    place_holder_index: 39
+    placeholder_name: Picture Placeholder 2
+    placeholder_id: 32
+    alias: Picture Placeholder 2
+    description: ''
+  - index: 8
+    place_holder_index: 40
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 33
+    alias: Text Placeholder 21
+    description: ''
+  - index: 9
+    place_holder_index: 41
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 34
+    alias: Text Placeholder 21
+    description: ''
+  - index: 10
+    place_holder_index: 44
+    placeholder_name: Slide Number Placeholder 10
+    placeholder_id: 11
+    alias: Slide Number Placeholder 10
+    description: ''
+  - index: 11
+    place_holder_index: 43
+    placeholder_name: Footer Placeholder 9
+    placeholder_id: 10
+    alias: Footer Placeholder 9
+    description: ''
+  - index: 12
+    place_holder_index: 42
+    placeholder_name: Date Placeholder 8
+    placeholder_id: 9
+    alias: Date Placeholder 8
+    description: ''
+- index: 82
+  layout_name: Light - 4 Icons, Subhead and text
+  mode: light
+  shortname: 4 Icons, Subhead and text
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 26
+    placeholder_name: Icon 1
+    placeholder_id: 3
+    alias: Icon 1
+    description: ''
+  - index: 1
+    place_holder_index: 25
+    placeholder_name: Column 1 Header
+    placeholder_id: 14
+    alias: Column 1 Header
+    description: ''
+  - index: 2
+    place_holder_index: 24
+    placeholder_name: Column 1 body
+    placeholder_id: 11
+    alias: Column 1 body
+    description: ''
+  - index: 3
+    place_holder_index: 42
+    placeholder_name: Icon 2
+    placeholder_id: 37
+    alias: Icon 2
+    description: ''
+  - index: 4
+    place_holder_index: 43
+    placeholder_name: Column 2 header
+    placeholder_id: 38
+    alias: Column 2 header
+    description: ''
+  - index: 5
+    place_holder_index: 44
+    placeholder_name: Column 2 body
+    placeholder_id: 39
+    alias: Column 2 body
+    description: ''
+  - index: 6
+    place_holder_index: 45
+    placeholder_name: Icon 3
+    placeholder_id: 40
+    alias: Icon 3
+    description: ''
+  - index: 7
+    place_holder_index: 46
+    placeholder_name: Column 3 header
+    placeholder_id: 41
+    alias: Column 3 header
+    description: ''
+  - index: 8
+    place_holder_index: 47
+    placeholder_name: Column 3 body
+    placeholder_id: 42
+    alias: Column 3 body
+    description: ''
+  - index: 9
+    place_holder_index: 48
+    placeholder_name: Icon 4
+    placeholder_id: 43
+    alias: Icon 4
+    description: ''
+  - index: 10
+    place_holder_index: 49
+    placeholder_name: Column 4 header
+    placeholder_id: 44
+    alias: Column 4 header
+    description: ''
+  - index: 11
+    place_holder_index: 50
+    placeholder_name: Column 4 body
+    placeholder_id: 45
+    alias: Column 4 body
+    description: ''
+  - index: 12
+    place_holder_index: 53
+    placeholder_name: Slide Number Placeholder 9
+    placeholder_id: 10
+    alias: Slide Number Placeholder 9
+    description: ''
+  - index: 13
+    place_holder_index: 51
+    placeholder_name: Date Placeholder 7
+    placeholder_id: 8
+    alias: Date Placeholder 7
+    description: ''
+  - index: 14
+    place_holder_index: 52
+    placeholder_name: Footer Placeholder 8
+    placeholder_id: 9
+    alias: Footer Placeholder 8
+    description: ''
+  - index: 15
+    place_holder_index: 0
+    placeholder_name: Title 7
+    placeholder_id: 4
+    alias: Title 7
+    description: ''
+- index: 83
+  layout_name: Dark - 4 Icons, Subhead and text
+  mode: dark
+  shortname: 4 Icons, Subhead and text
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 51
+    placeholder_name: Date Placeholder 1
+    placeholder_id: 2
+    alias: Date Placeholder 1
+    description: ''
+  - index: 1
+    place_holder_index: 52
+    placeholder_name: Footer Placeholder 3
+    placeholder_id: 4
+    alias: Footer Placeholder 3
+    description: ''
+  - index: 2
+    place_holder_index: 53
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 6
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 3
+    place_holder_index: 26
+    placeholder_name: Icon 1
+    placeholder_id: 18
+    alias: Icon 1
+    description: ''
+  - index: 4
+    place_holder_index: 25
+    placeholder_name: Column 1 Header
+    placeholder_id: 19
+    alias: Column 1 Header
+    description: ''
+  - index: 5
+    place_holder_index: 24
+    placeholder_name: Column 1 body
+    placeholder_id: 21
+    alias: Column 1 body
+    description: ''
+  - index: 6
+    place_holder_index: 42
+    placeholder_name: Icon 2
+    placeholder_id: 23
+    alias: Icon 2
+    description: ''
+  - index: 7
+    place_holder_index: 43
+    placeholder_name: Column 2 header
+    placeholder_id: 26
+    alias: Column 2 header
+    description: ''
+  - index: 8
+    place_holder_index: 44
+    placeholder_name: Column 2 body
+    placeholder_id: 27
+    alias: Column 2 body
+    description: ''
+  - index: 9
+    place_holder_index: 45
+    placeholder_name: Icon 3
+    placeholder_id: 29
+    alias: Icon 3
+    description: ''
+  - index: 10
+    place_holder_index: 46
+    placeholder_name: Column 3 header
+    placeholder_id: 30
+    alias: Column 3 header
+    description: ''
+  - index: 11
+    place_holder_index: 47
+    placeholder_name: Column 3 body
+    placeholder_id: 31
+    alias: Column 3 body
+    description: ''
+  - index: 12
+    place_holder_index: 48
+    placeholder_name: Icon 4
+    placeholder_id: 33
+    alias: Icon 4
+    description: ''
+  - index: 13
+    place_holder_index: 49
+    placeholder_name: Column 4 header
+    placeholder_id: 34
+    alias: Column 4 header
+    description: ''
+  - index: 14
+    place_holder_index: 50
+    placeholder_name: Column 4 body
+    placeholder_id: 35
+    alias: Column 4 body
+    description: ''
+  - index: 15
+    place_holder_index: 0
+    placeholder_name: Title 7
+    placeholder_id: 3
+    alias: Title 7
+    description: ''
+- index: 84
+  layout_name: Dark - Blank
+  mode: dark
+  shortname: Blank
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 3
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 1
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 4
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 2
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 5
+    alias: Date Placeholder 4
+    description: ''
+- index: 85
+  layout_name: Light - Blank
+  mode: light
+  shortname: Blank
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 3
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 1
+    place_holder_index: 39
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 4
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 2
+    place_holder_index: 38
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 5
+    alias: Date Placeholder 3
+    description: ''
+- index: 86
+  layout_name: Dark - Split content with line
+  mode: dark
+  shortname: Split content with line
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 12
+    placeholder_id: 3
+    alias: Title 12
+    description: ''
+  - index: 1
+    place_holder_index: 11
+    placeholder_name: Subtitle
+    placeholder_id: 5
+    alias: Subtitle
+    description: ''
+  - index: 2
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 2
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 3
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 6
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 4
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 7
+    alias: Date Placeholder 4
+    description: ''
+- index: 87
+  layout_name: Light - Split content with line
+  mode: light
+  shortname: Split content with line
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 12
+    placeholder_id: 9
+    alias: Title 12
+    description: ''
+  - index: 1
+    place_holder_index: 11
+    placeholder_name: Subtitle
+    placeholder_id: 8
+    alias: Subtitle
+    description: ''
+  - index: 2
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 2
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 3
+    place_holder_index: 39
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 6
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 4
+    place_holder_index: 38
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 7
+    alias: Date Placeholder 3
+    description: ''
+- index: 88
+  layout_name: Photo Collage + Content Dark
+  mode: normal
+  shortname: Photo Collage + Content
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 4
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 29
+    placeholder_name: Text Placeholder 2
+    placeholder_id: 3
+    alias: Text Placeholder 2
+    description: ''
+  - index: 2
+    place_holder_index: 38
+    placeholder_name: Text Placeholder 2
+    placeholder_id: 10
+    alias: Text Placeholder 2
+    description: ''
+  - index: 3
+    place_holder_index: 37
+    placeholder_name: Text Placeholder 2
+    placeholder_id: 8
+    alias: Text Placeholder 2
+    description: ''
+  - index: 4
+    place_holder_index: 36
+    placeholder_name: Picture Placeholder 17
+    placeholder_id: 20
+    alias: Picture Placeholder 17
+    description: ''
+  - index: 5
+    place_holder_index: 35
+    placeholder_name: Picture Placeholder 17
+    placeholder_id: 19
+    alias: Picture Placeholder 17
+    description: ''
+  - index: 6
+    place_holder_index: 34
+    placeholder_name: Picture Placeholder 17
+    placeholder_id: 18
+    alias: Picture Placeholder 17
+    description: ''
+  - index: 7
+    place_holder_index: 33
+    placeholder_name: Picture Placeholder 10
+    placeholder_id: 11
+    alias: Picture Placeholder 10
+    description: ''
+  - index: 8
+    place_holder_index: 32
+    placeholder_name: Picture Placeholder 8
+    placeholder_id: 9
+    alias: Picture Placeholder 8
+    description: ''
+  - index: 9
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 2
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 10
+    place_holder_index: 39
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 6
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 11
+    place_holder_index: 41
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 12
+    alias: Date Placeholder 3
+    description: ''
+- index: 89
+  layout_name: Photo Collage + Content Light
+  mode: normal
+  shortname: Photo Collage + Content
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 4
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 29
+    placeholder_name: Text Placeholder 2
+    placeholder_id: 3
+    alias: Text Placeholder 2
+    description: ''
+  - index: 2
+    place_holder_index: 38
+    placeholder_name: Text Placeholder 2
+    placeholder_id: 10
+    alias: Text Placeholder 2
+    description: ''
+  - index: 3
+    place_holder_index: 37
+    placeholder_name: Text Placeholder 2
+    placeholder_id: 8
+    alias: Text Placeholder 2
+    description: ''
+  - index: 4
+    place_holder_index: 36
+    placeholder_name: Picture Placeholder 17
+    placeholder_id: 20
+    alias: Picture Placeholder 17
+    description: ''
+  - index: 5
+    place_holder_index: 35
+    placeholder_name: Picture Placeholder 17
+    placeholder_id: 19
+    alias: Picture Placeholder 17
+    description: ''
+  - index: 6
+    place_holder_index: 34
+    placeholder_name: Picture Placeholder 17
+    placeholder_id: 18
+    alias: Picture Placeholder 17
+    description: ''
+  - index: 7
+    place_holder_index: 33
+    placeholder_name: Picture Placeholder 10
+    placeholder_id: 11
+    alias: Picture Placeholder 10
+    description: ''
+  - index: 8
+    place_holder_index: 32
+    placeholder_name: Picture Placeholder 8
+    placeholder_id: 9
+    alias: Picture Placeholder 8
+    description: ''
+  - index: 9
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 2
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 10
+    place_holder_index: 39
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 6
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 11
+    place_holder_index: 41
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 12
+    alias: Date Placeholder 3
+    description: ''
+- index: 90
+  layout_name: PHOTO_Full Slide
+  mode: normal
+  shortname: PHOTO_Full Slide
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 5
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 1
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 7
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 2
+    place_holder_index: 13
+    placeholder_name: Picture Placeholder 1
+    placeholder_id: 2
+    alias: Picture Placeholder 1
+    description: ''
+- index: 91
+  layout_name: Dark 2 Images and Content
+  mode: dark
+  shortname: 2 Images and Content
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 7
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 26
+    placeholder_name: Picture Placeholder 12
+    placeholder_id: 6
+    alias: Picture Placeholder 12
+    description: ''
+  - index: 2
+    place_holder_index: 29
+    placeholder_name: Text Placeholder 5
+    placeholder_id: 4
+    alias: Text Placeholder 5
+    description: ''
+  - index: 3
+    place_holder_index: 27
+    placeholder_name: Picture Placeholder 12
+    placeholder_id: 9
+    alias: Picture Placeholder 12
+    description: ''
+  - index: 4
+    place_holder_index: 30
+    placeholder_name: Text Placeholder 7
+    placeholder_id: 5
+    alias: Text Placeholder 7
+    description: ''
+  - index: 5
+    place_holder_index: 17
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 8
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 6
+    place_holder_index: 16
+    placeholder_name: Footer Placeholder 6
+    placeholder_id: 10
+    alias: Footer Placeholder 6
+    description: ''
+  - index: 7
+    place_holder_index: 15
+    placeholder_name: Date Placeholder 4
+    placeholder_id: 11
+    alias: Date Placeholder 4
+    description: ''
+- index: 92
+  layout_name: Light 2 Images and Content
+  mode: light
+  shortname: 2 Images and Content
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 7
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 26
+    placeholder_name: Picture Placeholder 12
+    placeholder_id: 12
+    alias: Picture Placeholder 12
+    description: ''
+  - index: 2
+    place_holder_index: 29
+    placeholder_name: Text Placeholder 5
+    placeholder_id: 8
+    alias: Text Placeholder 5
+    description: ''
+  - index: 3
+    place_holder_index: 27
+    placeholder_name: Picture Placeholder 12
+    placeholder_id: 13
+    alias: Picture Placeholder 12
+    description: ''
+  - index: 4
+    place_holder_index: 30
+    placeholder_name: Text Placeholder 7
+    placeholder_id: 11
+    alias: Text Placeholder 7
+    description: ''
+  - index: 5
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 4
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 6
+    place_holder_index: 39
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 5
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 7
+    place_holder_index: 38
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 6
+    alias: Date Placeholder 3
+    description: ''
+- index: 93
+  layout_name: Dark - Bold Statement with Photo half
+  mode: dark
+  shortname: Bold Statement with Photo half
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 2
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 11
+    placeholder_name: Picture Placeholder 17
+    placeholder_id: 4
+    alias: Picture Placeholder 17
+    description: ''
+  - index: 2
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 3
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 3
+    place_holder_index: 39
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 5
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 4
+    place_holder_index: 41
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 6
+    alias: Date Placeholder 3
+    description: ''
+- index: 94
+  layout_name: Light - Bold Statement with Photo half
+  mode: light
+  shortname: Bold Statement with Photo half
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 2
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 11
+    placeholder_name: Picture Placeholder 17
+    placeholder_id: 4
+    alias: Picture Placeholder 17
+    description: ''
+  - index: 2
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 3
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 3
+    place_holder_index: 39
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 5
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 4
+    place_holder_index: 41
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 6
+    alias: Date Placeholder 3
+    description: ''
+- index: 95
+  layout_name: Dark - Screenshot
+  mode: dark
+  shortname: Screenshot
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 2
+    placeholder_id: 3
+    alias: Title 2
+    description: ''
+  - index: 1
+    place_holder_index: 24
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 10
+    alias: Text Placeholder 21
+    description: ''
+  - index: 2
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 6
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 3
+    place_holder_index: 39
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 14
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 4
+    place_holder_index: 41
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 15
+    alias: Date Placeholder 3
+    description: ''
+  - index: 5
+    place_holder_index: 38
+    placeholder_name: Picture Placeholder 21
+    placeholder_id: 7
+    alias: Picture Placeholder 21
+    description: ''
+- index: 96
+  layout_name: Light - Screenshot
+  mode: light
+  shortname: Screenshot
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 2
+    placeholder_id: 3
+    alias: Title 2
+    description: ''
+  - index: 1
+    place_holder_index: 24
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 10
+    alias: Text Placeholder 21
+    description: ''
+  - index: 2
+    place_holder_index: 38
+    placeholder_name: Picture Placeholder 21
+    placeholder_id: 13
+    alias: Picture Placeholder 21
+    description: ''
+  - index: 3
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 2
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 4
+    place_holder_index: 39
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 4
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 5
+    place_holder_index: 41
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 5
+    alias: Date Placeholder 3
+    description: ''
+- index: 97
+  layout_name: Light - Story with photo and stats
+  mode: light
+  shortname: Story with photo and stats
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 28
+    placeholder_name: Content Placeholder 7
+    placeholder_id: 29
+    alias: Content Placeholder 7
+    description: ''
+  - index: 1
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 43
+    alias: Title 1
+    description: ''
+  - index: 2
+    place_holder_index: 39
+    placeholder_name: Slide Number Placeholder 7
+    placeholder_id: 33
+    alias: Slide Number Placeholder 7
+    description: ''
+  - index: 3
+    place_holder_index: 11
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 31
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 4
+    place_holder_index: 10
+    placeholder_name: Date Placeholder 2
+    placeholder_id: 30
+    alias: Date Placeholder 2
+    description: ''
+  - index: 5
+    place_holder_index: 32
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 20
+    alias: Text Placeholder 21
+    description: ''
+  - index: 6
+    place_holder_index: 44
+    placeholder_name: Text Placeholder 19
+    placeholder_id: 21
+    alias: Text Placeholder 19
+    description: ''
+  - index: 7
+    place_holder_index: 38
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 24
+    alias: Text Placeholder 21
+    description: ''
+  - index: 8
+    place_holder_index: 45
+    placeholder_name: Text Placeholder 19
+    placeholder_id: 25
+    alias: Text Placeholder 19
+    description: ''
+  - index: 9
+    place_holder_index: 46
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 26
+    alias: Text Placeholder 21
+    description: ''
+  - index: 10
+    place_holder_index: 47
+    placeholder_name: Text Placeholder 19
+    placeholder_id: 3
+    alias: Text Placeholder 19
+    description: ''
+  - index: 11
+    place_holder_index: 14
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 4
+    alias: Text Placeholder 21
+    description: ''
+  - index: 12
+    place_holder_index: 30
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 5
+    alias: Text Placeholder 21
+    description: ''
+  - index: 13
+    place_holder_index: 31
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 7
+    alias: Text Placeholder 21
+    description: ''
+  - index: 14
+    place_holder_index: 48
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 8
+    alias: Text Placeholder 21
+    description: ''
+  - index: 15
+    place_holder_index: 33
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 9
+    alias: Text Placeholder 21
+    description: ''
+  - index: 16
+    place_holder_index: 34
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 11
+    alias: Text Placeholder 21
+    description: ''
+  - index: 17
+    place_holder_index: 53
+    placeholder_name: Picture Placeholder 17
+    placeholder_id: 12
+    alias: Picture Placeholder 17
+    description: ''
+  - index: 18
+    place_holder_index: 54
+    placeholder_name: Text Placeholder 21
+    placeholder_id: 14
+    alias: Text Placeholder 21
+    description: ''
+- index: 98
+  layout_name: Light - half color block
+  mode: light
+  shortname: half color block
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 2
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 3
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 2
+    place_holder_index: 39
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 5
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 3
+    place_holder_index: 41
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 6
+    alias: Date Placeholder 3
+    description: ''
+- index: 99
+  layout_name: Dark - half color block
+  mode: dark
+  shortname: half color block
+  description: ''
+  placeholders:
+  - index: 0
+    place_holder_index: 0
+    placeholder_name: Title 1
+    placeholder_id: 2
+    alias: Title 1
+    description: ''
+  - index: 1
+    place_holder_index: 40
+    placeholder_name: Slide Number Placeholder 5
+    placeholder_id: 3
+    alias: Slide Number Placeholder 5
+    description: ''
+  - index: 2
+    place_holder_index: 39
+    placeholder_name: Footer Placeholder 4
+    placeholder_id: 5
+    alias: Footer Placeholder 4
+    description: ''
+  - index: 3
+    place_holder_index: 41
+    placeholder_name: Date Placeholder 3
+    placeholder_id: 6
+    alias: Date Placeholder 3
+    description: ''
+- index: 100
+  layout_name: Light - Closing Slide
+  mode: light
+  shortname: Closing Slide
+  description: ''
+  placeholders: []
+- index: 101
+  layout_name: Dark - Closing Slide
+  mode: dark
+  shortname: Closing Slide
+  description: ''
+  placeholders: []
+- index: 102
+  layout_name: STOP
+  mode: normal
+  shortname: STOP
+  description: ''
+  placeholders: []

@@ -1,0 +1,19 @@
+[project]
+name = "ppt-generator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiofiles>=24.1.0",
+    "bs4>=0.0.2",
+    "loguru>=0.7.3",
+    "mcp[cli]>=1.12.2",
+    "python-pptx>=1.0.2",
+    "pyyaml>=6.0.2",
+    "fastapi>=0.111.0",
+    "uvicorn>=0.29.0",
+    "openai>=1.24.0",
+    "python-dotenv>=1.0.1",
+    "cloudinary>=1.38.0"
+]
