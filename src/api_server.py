@@ -208,13 +208,21 @@ async def auto_presentation(data: GenerateJsonContentRequest):
             json_text = match.group(1)
         else:
             json_text = ai_json
-        # Remove trailing commas in JSON objects/arrays (common GPT artifact)
+        # Remove trailing commas in JSON objects/arrays and fix smart quotes (common GPT artifact)
         import re
         json_text_clean = re.sub(r',(\s*[\}\]])', r'\1', json_text)
+        # Replace smart quotes and similar ASCII-unsafe chars with regular ones
+        json_text_clean = json_text_clean.replace('\u201c', '"').replace('\u201d', '"').replace('\u2018', "'").replace('\u2019', "'")
+        json_text_clean = json_text_clean.replace('“', '"').replace('”', '"').replace('‘', "'").replace('’', "'")
+        # Remove other common LLM artifacts
+        json_text_clean = json_text_clean.strip()
         try:
             result_json = json.loads(json_text_clean)
         except Exception as e:
-            raise HTTPException(status_code=500, detail=f"OpenAI completion error (after comma fix): {str(e)}")
+            raise HTTPException(
+                status_code=500, 
+                detail=f"OpenAI completion error (after cleaning, still invalid JSON): {str(e)}\n---\nRAW JSON RECEIVED:\n{json_text_clean[:1000]}"
+            )
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"OpenAI completion error: {str(e)}")
     
