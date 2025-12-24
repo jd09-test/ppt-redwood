@@ -59,32 +59,24 @@ async def generate_presentation(data: GeneratePresentationRequest):
     """Accepts JSON presentation content, generates PPTX, and returns download location."""
     try:
         prs_content = PresentationContent(**data.json_content)
-        default_save_location = os.getenv('WORK_DIR', os.path.join(os.path.expanduser('~'), "Documents"))
-        filename = generate_timestamped_filename(default_save_location, prs_content.filename, "pptx")
-
-        message = {"filename": os.path.basename(filename), "save_location": default_save_location, "slides_count": 0}
-        theme_mode = prs_content.theme_mode
         slides_content = prs_content.slides
+        theme_mode = prs_content.theme_mode
 
+        message = {"slides_count": 0}
         prs = Presentation(ppt_template)
         reverse_index = get_reverse_index()
 
         import re
-
         layout_keys = set(reverse_index.keys())
         def normalize_layout_key(in_key):
-            # try as-is
             if in_key in layout_keys:
                 return in_key
-            # try replacing underscores/strips with slashes/strip spaces
             alt = in_key.replace("_", "/").strip()
             if alt in layout_keys:
                 return alt
-            # try removing extra spaces, lower-casing, etc.
             for key in layout_keys:
                 if key.replace(" ", "").replace("/", "").lower() == in_key.replace(" ", "").replace("_", "").lower():
                     return key
-            # failed
             return None
 
         for slide_content in slides_content:
@@ -113,12 +105,30 @@ async def generate_presentation(data: GeneratePresentationRequest):
                             p = text_frame.add_paragraph()
                             process_html(c, p)
                 except Exception as e:
-                    # Log slide/placeholder info if needed
                     break
             message["slides_count"] += 1
 
-        prs.save(filename)
+        # Save to in-memory buffer, upload to Cloudinary, do not store to disk
+        import io
+        pptx_buffer = io.BytesIO()
+        prs.save(pptx_buffer)
+        pptx_buffer.seek(0)
+
+        try:
+            upload_result = cloudinary.uploader.upload(
+                pptx_buffer,
+                resource_type="raw",
+                public_id=prs_content.filename,
+                folder="presentations"
+            )
+            message["cloudinary_url"] = upload_result.get("secure_url")
+            message["cloudinary_public_id"] = upload_result.get("public_id")
+        except Exception as cloud_err:
+            message["cloudinary_url"] = None
+            message["cloudinary_error"] = str(cloud_err)
+
         message["status"] = "success"
+        message["presentation_json"] = data.json_content
         return message
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error generating PPTX: {str(e)}")
@@ -215,14 +225,6 @@ async def auto_presentation(data: GenerateJsonContentRequest):
         json_text_clean = json_text_clean.replace('\u201c', '"').replace('\u201d', '"').replace('\u2018', "'").replace('\u2019', "'")
         json_text_clean = json_text_clean.replace('“', '"').replace('”', '"').replace('‘', "'").replace('’', "'")
         # Remove other common LLM artifacts
-        json_text_clean = json_text_clean.strip()
-        try:
-            result_json = json.loads(json_text_clean)
-        except Exception as e:
-            raise HTTPException(
-                status_code=500, 
-                detail=f"OpenAI completion error (after cleaning, still invalid JSON): {str(e)}\n---\nRAW JSON RECEIVED:\n{json_text_clean[:1000]}"
-            )
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"OpenAI completion error: {str(e)}")
     
