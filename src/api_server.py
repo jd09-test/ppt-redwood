@@ -129,7 +129,7 @@ async def generate_presentation(data: GeneratePresentationRequest):
 
         message["status"] = "success"
         message["presentation_json"] = data.json_content
-        return message
+        return { "cloudinary_url": message["cloudinary_url"] }
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error generating PPTX: {str(e)}")
 
