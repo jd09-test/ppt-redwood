@@ -7,8 +7,9 @@ class Placeholder(BaseModel):
 
 class Slide(BaseModel):
     slide_number: int = Field(..., gt=0)
-    layout: str 
-    placeholders: List[Placeholder]
+    layout: str  # Choose a suitable layout name that fits the content, strictly from the available "layout_name" list below
+    placeholders: List[Placeholder] 
+    speaker_notes: Optional[str] = None  # Optional speaker notes for this slide
 
 class PresentationContent(BaseModel):
     filename: str
