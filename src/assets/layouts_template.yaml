@@ -3069,13 +3069,21 @@ Title/Subtitle 1 Column:
         dark: 0
     1:
       disabled: true
+      name: Subtitle
+      alias: Subtitle
+      description: 'subtitle, one line, max 50 characters'
+      place_holder_index:
+        light: 11
+        dark: 15
+    2:  
+      disabled: true
       name: Content
       alias: Block
       description: 'full page text paragraphs, multiple lines with rich information, max 15 lines, many characters'
       place_holder_index:
         light: 14
         dark: 11
-    2:
+    3:
       disabled: true
       name: Slide Number Placeholder 7
       alias: Slide Number Placeholder 7
@@ -3083,7 +3091,7 @@ Title/Subtitle 1 Column:
       place_holder_index:
         light: 17
         dark: 14
-    3:
+    4:
       disabled: true
       name: Footer Placeholder 6
       alias: Footer Placeholder 6
@@ -3091,7 +3099,7 @@ Title/Subtitle 1 Column:
       place_holder_index:
         light: 16
         dark: 17
-    4:
+    5:
       disabled: true
       name: Date Placeholder 4
       alias: Date Placeholder 4
@@ -3099,14 +3107,6 @@ Title/Subtitle 1 Column:
       place_holder_index:
         light: 15
         dark: 16
-    5:
-      disabled: true
-      name: Subtitle
-      alias: Subtitle
-      description: 'subtitle, one line, max 50 characters'
-      place_holder_index:
-        light: 11
-        dark: 15
 Title/Subtitle 2 Column:
   disabled: true
   layout_name:
