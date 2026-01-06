@@ -3061,20 +3061,20 @@ Title/Subtitle 1 Column:
   placeholders:
     0:
       disabled: true
-      name: Title 1
+      name: Title 8
       alias: Title
       description: 'one line title, max 30 characters'
       place_holder_index:
         light: 0
         dark: 0
-    1:
+    1:  
       disabled: true
-      name: Content
+      name: Content Placeholder 10
       alias: Block
       description: 'full page text paragraphs, multiple lines with rich information, max 15 lines, many characters'
       place_holder_index:
         light: 14
-        dark: 11
+        dark: 14
     2:
       disabled: true
       name: Slide Number Placeholder 7
@@ -3101,12 +3101,12 @@ Title/Subtitle 1 Column:
         dark: 16
     5:
       disabled: true
-      name: Subtitle
+      name: Text Placeholder 9
       alias: Subtitle
       description: 'subtitle, one line, max 50 characters'
       place_holder_index:
         light: 11
-        dark: 15
+        dark: 11
 Title/Subtitle 2 Column:
   disabled: true
   layout_name:
@@ -3120,7 +3120,7 @@ Title/Subtitle 2 Column:
   placeholders:
     0:
       disabled: true
-      name: Title 4
+      name: Title 7
       alias: Title
       description: 'full width one line title, max 30 characters'
       place_holder_index:
@@ -3128,20 +3128,20 @@ Title/Subtitle 2 Column:
         dark: 0
     1:
       disabled: true
-      name: Content
+      name: Content Placeholder 9
       alias: left block
       description: 'text paragraphs, multiple lines with rich information, maximum text capacity is 15 lines,many characters'
       place_holder_index:
         light: 14
-        dark: 11
+        dark: 14
     2:
       disabled: true
-      name: Content
+      name: Content Placeholder 10
       alias: right block
       description: 'text paragraphs, multiple lines with rich information, maximum text capacity is 15 lines,many characters'
       place_holder_index:
         light: 19
-        dark: 14
+        dark: 19
     3:
       disabled: true
       name: Slide Number Placeholder 8
@@ -3168,7 +3168,7 @@ Title/Subtitle 2 Column:
         dark: 16
     6:
       disabled: true
-      name: Subtitle
+      name: Text Placeholder 8
       alias: Subtitle
       description: 'full width subtitle, one line, max 50 characters'
       place_holder_index:
