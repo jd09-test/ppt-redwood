@@ -208,9 +208,17 @@ async def generate_word_doc(data: GenerateWordDocRequest):
 @app.post("/generate_ppt_with_audio")
 async def generate_ppt_with_audio(data: GeneratePresentationRequest):
     try:
-        prs_content = PresentationContent(**data.json_content)
+        # Now support: "audio" inside json_content root (not at the outer level)
+        # Default: "female" if not set
+        audio_gender = data.json_content.get("audio", "female")
+        prs_content = PresentationContent(**{k: v for k, v in data.json_content.items() if k not in ["audio"]})
         slides_content = prs_content.slides
         theme_mode = prs_content.theme_mode
+
+        if audio_gender == "male":
+            voice = "en-US-AndrewMultilingualNeural"
+        else:
+            voice = "en-IN-NeerjaNeural"
 
         message = {"slides_count": 0}
         prs = Presentation(ppt_template)
@@ -229,8 +237,10 @@ async def generate_ppt_with_audio(data: GeneratePresentationRequest):
                     return key
             return None
 
-        # Gather ALL speaker notes for the combined whole-ppt audio
-        combined_notes = []
+        import zipfile
+
+        slide_audio_urls = []
+        slide_audio_files = []
         for i, slide_content in enumerate(slides_content, start=1):
             orig_layout = slide_content.layout
             layout_name = normalize_layout_key(orig_layout)
@@ -258,36 +268,75 @@ async def generate_ppt_with_audio(data: GeneratePresentationRequest):
                             process_html(c, p)
                 except Exception as e:
                     break
-            # Add speaker notes if provided
+            # Per-slide audio logic
+            slide_audio_url = None
+            slide_audio_tmpfile = None
             if hasattr(slide_content, "speaker_notes") and slide_content.speaker_notes:
                 slide.notes_slide.notes_text_frame.text = slide_content.speaker_notes
-                combined_notes.append(slide_content.speaker_notes)
+                # Generate audio for this slide's speaker notes only
+                try:
+                    with tempfile.NamedTemporaryFile(suffix=".mp3", delete=False) as tmpfile:
+                        tmpfilename = tmpfile.name
+                    communicate = edge_tts.Communicate(slide_content.speaker_notes, voice=voice)
+                    await communicate.save(tmpfilename)
+                    with open(tmpfilename, "rb") as f:
+                        upload_result = cloudinary.uploader.upload(
+                            f,
+                            resource_type="video",
+                            public_id=f"{prs_content.filename}_slide{i}_audio",
+                            folder="ppt_audio"
+                        )
+                        slide_audio_url = upload_result.get("secure_url")
+                    slide_audio_tmpfile = tmpfilename
+                except Exception as audio_err:
+                    slide_audio_url = None
+                    slide_audio_tmpfile = None
+            slide_audio_urls.append(slide_audio_url)
+            slide_audio_files.append(slide_audio_tmpfile)
             message["slides_count"] += 1
 
-        # Edge TTS AI voice for ALL SPEAKER NOTES in one file
-        ppt_audio_url = None
-        if combined_notes:
-            try:
-                all_notes_text = "\n\n".join(combined_notes)
-                import io
-                voice = "en-US-AndrewMultilingualNeural"
-                with tempfile.NamedTemporaryFile(suffix=".mp3", delete=False) as tmpfile:
-                    tmpfilename = tmpfile.name
-                communicate = edge_tts.Communicate(all_notes_text, voice=voice)
-                await communicate.save(tmpfilename)
-                with open(tmpfilename, "rb") as f:
-                    upload_result = cloudinary.uploader.upload(
-                        f,
-                        resource_type="video",
-                        public_id=f"{prs_content.filename}_full_audio",
-                        folder="ppt_audio"
-                    )
-                    ppt_audio_url = upload_result.get("secure_url")
-                os.remove(tmpfilename)
-            except Exception as audio_err:
-                ppt_audio_url = None
+        # Create ZIP of all non-None slide audio files
+        audio_zip_url = None
+        audio_zip_tmpfile = None
+        try:
+            zip_path = tempfile.NamedTemporaryFile(suffix=".zip", delete=False).name
+            with zipfile.ZipFile(zip_path, "w") as zipf:
+                for j, fpath in enumerate(slide_audio_files, start=1):
+                    if fpath and os.path.exists(fpath):
+                        # Name inside ZIP: slide{j}.mp3
+                        zipf.write(fpath, f"slide{j}.mp3")
+            with open(zip_path, "rb") as zf:
+                upload_result = cloudinary.uploader.upload(
+                    zf,
+                    resource_type="raw",
+                    public_id=f"{prs_content.filename}_audio_bundle",
+                    folder="ppt_audio",
+                    use_filename=True,
+                    unique_filename=False,
+                    overwrite=True,
+                    type="upload"  # ensure public accessibility
+                )
+                base_url = upload_result.get("secure_url")
+                audio_zip_url = base_url + "?fl_attachment"
+            audio_zip_tmpfile = zip_path
+        except Exception as zip_err:
+            audio_zip_url = None
 
-        # Save PPTX to buffer and upload
+        # Clean up temp mp3 files and zip
+        for f in slide_audio_files:
+            if f and os.path.exists(f):
+                try:
+                    os.remove(f)
+                except Exception:
+                    pass
+        if audio_zip_tmpfile and os.path.exists(audio_zip_tmpfile):
+            try:
+                os.remove(audio_zip_tmpfile)
+            except Exception:
+                pass
+
+        # Remove single audio file logic
+
         import io
         pptx_buffer = io.BytesIO()
         prs.save(pptx_buffer)
@@ -306,7 +355,8 @@ async def generate_ppt_with_audio(data: GeneratePresentationRequest):
 
         return {
             "cloudinary_url": pptx_url,
-            "ppt_audio_url": ppt_audio_url
+            "slide_audio_urls": slide_audio_urls,
+            "audio_zip_url": audio_zip_url
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error generating PPTX/audio: {str(e)}")
